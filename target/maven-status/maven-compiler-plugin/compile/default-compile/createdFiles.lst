@@ -10,6 +10,7 @@ com\generic\utilities\PropertyFileUtility.class
 object\repository\CreateNewContactPage.class
 com\generic\utilities\JavaUtility.class
 object\repository\LoginPage.class
+com\generic\utilities\RetryAnalyserImplementationUtility.class
 com\generic\utilities\IConstantUtility.class
 object\repository\OrganizationInfoPage.class
 object\repository\OrganizationsPage.class
