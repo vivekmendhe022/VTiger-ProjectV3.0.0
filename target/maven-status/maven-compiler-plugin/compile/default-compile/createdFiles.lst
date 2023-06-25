@@ -1,10 +1,13 @@
 com\generic\utilities\ListenersImplementation.class
+object\repository\LeadsPage.class
 com\generic\utilities\ExcelFileUtility.class
 com\generic\utilities\BaseClass.class
 object\repository\HomePage.class
 com\generic\utilities\WebDriverUtility.class
+object\repository\CreateNewLeadPage.class
 object\repository\CreateNewOrganizationPage.class
 object\repository\ContactPage.class
+object\repository\LeadsInfoPage.class
 object\repository\ContactInfoPage.class
 com\generic\utilities\PropertyFileUtility.class
 object\repository\CreateNewContactPage.class
