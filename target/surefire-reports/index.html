@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods,   3 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -114,6 +114,11 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Opportunities.CreateOpportunitiesTest" class="method navigator-link" hash-for-method="createOpportunitiesTest">createOpportunitiesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="Organisation.CreateOrganizationWithChemicalsTest" class="method navigator-link" hash-for-method="createOrganizationWithChemicalsTest">createOrganizationWithChemicalsTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
@@ -129,6 +134,21 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Opportunities.CreateOpportunitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createOpportunitiesTest">
+                  </a> <!-- createOpportunitiesTest -->
+                  <span class="method-name">createOpportunitiesTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -187,11 +207,12 @@
   &lt;listeners&gt;
     &lt;listener class-name=&quot;com.generic.utilities.ListenersImplementation&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;3&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;Organisation.CreateOrganizationWithChemicalsTest&quot;/&gt;
       &lt;class name=&quot;Contacts.CreateContactTest&quot;/&gt;
       &lt;class name=&quot;Leads.CreateLeadsWithLeadSourceTest&quot;/&gt;
+      &lt;class name=&quot;Opportunities.CreateOpportunitiesTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -205,7 +226,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name">Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -255,19 +276,23 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(3);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'createContactTest')
-data.setCell(0, 2, 'Contacts.CreateContactTest')
-data.setCell(0, 3, 46266);
+data.setCell(0, 1, 'createOpportunitiesTest')
+data.setCell(0, 2, 'Opportunities.CreateOpportunitiesTest')
+data.setCell(0, 3, 24394);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'createOrganizationWithChemicalsTest')
-data.setCell(1, 2, 'Organisation.CreateOrganizationWithChemicalsTest')
-data.setCell(1, 3, 21993);
+data.setCell(1, 1, 'createContactTest')
+data.setCell(1, 2, 'Contacts.CreateContactTest')
+data.setCell(1, 3, 23098);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'createLeadWithLeadSourceTest')
-data.setCell(2, 2, 'Leads.CreateLeadsWithLeadSourceTest')
-data.setCell(2, 3, 19934);
+data.setCell(2, 1, 'createOrganizationWithChemicalsTest')
+data.setCell(2, 2, 'Organisation.CreateOrganizationWithChemicalsTest')
+data.setCell(2, 3, 10932);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createLeadWithLeadSourceTest')
+data.setCell(3, 2, 'Leads.CreateLeadsWithLeadSourceTest')
+data.setCell(3, 3, 9476);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
@@ -284,22 +309,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">createContactTest</span>
+              <span class="reporter-method-name">createLeadWithLeadSourceTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Organisation link click successful</span>
-                <span class="reporter-method-output">Create Organisation look up IMG link click successful</span>
-                <span class="reporter-method-output">Organisation & Industry entered successful</span>
-                <span class="reporter-method-output">Bipro66 create successfully...!</span>
-                <span class="reporter-method-output">Contacts page display</span>
-                <span class="reporter-method-output">Contacts page click Successful</span>
-                <span class="reporter-method-output">Lasname & Orgname entered Successful</span>
-                <span class="reporter-method-output">Gandhi66 create successfully...!</span>
+                <span class="reporter-method-output">Leads page is display </span>
+                <span class="reporter-method-output">Create New Lead page is display </span>
+                <span class="reporter-method-output">New Leads created sucessfully..!</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">createLeadWithLeadSourceTest</span>
+              <span class="reporter-method-name">createOpportunitiesTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">New Leads created sucessfully..!</span>
+                <span class="reporter-method-output">Opportunities page is diplayed.</span>
+                <span class="reporter-method-output">Creating New Opportunity page is displyed.</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -308,16 +329,38 @@ return data;
                 <span class="reporter-method-output">Organisation link click successful</span>
                 <span class="reporter-method-output">Create Organisation look up IMG link click successful</span>
                 <span class="reporter-method-output">Organisation & Industry entered successful</span>
-                <span class="reporter-method-output">Bipro227 create successfully...!</span>
+                <span class="reporter-method-output">Bipro352 create successfully...!</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createContactTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Organisation link click successful</span>
+                <span class="reporter-method-output">Create Organisation look up IMG link click successful</span>
+                <span class="reporter-method-output">Organisation & Industry entered successful</span>
+                <span class="reporter-method-output">Bipro27 create successfully...!</span>
+                <span class="reporter-method-output">Contacts page display</span>
+                <span class="reporter-method-output">Contacts page click Successful</span>
+                <span class="reporter-method-output">Lasname & Orgname entered Successful</span>
+                <span class="reporter-method-output">Gandhi27 create successfully...!</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">Opportunities.CreateOpportunitiesTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">BS</span>
+                <br/>
+                <span class="ignored-method-name">AS</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
               <span class="ignored-class-name">Contacts.CreateContactTest</span>
               <div class="ignored-methods-div">
@@ -351,76 +394,99 @@ return data;
               </div> <!-- configuration-suite before -->
               <div class="configuration-class before">
                 <span class="method-name">BCLaunchBrowser</span>
-                <span class="method-start">681 ms</span>
+                <span class="method-start">330 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BMLoginTOApplication</span>
-                <span class="method-start">6649 ms</span>
+                <span class="method-start">4801 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createOrganizationWithChemicalsTest</span>
-                <span class="method-start">12473 ms</span>
+                <span class="method-start">10856 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AMLogoutTOApplication</span>
-                <span class="method-start">34471 ms</span>
+                <span class="method-start">21792 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">ACCloseBrowser</span>
-                <span class="method-start">34664 ms</span>
+                <span class="method-start">21983 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Contacts.CreateContactTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">BCLaunchBrowser</span>
-                <span class="method-start">35207 ms</span>
+                <span class="method-start">22350 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BMLoginTOApplication</span>
-                <span class="method-start">38701 ms</span>
+                <span class="method-start">24737 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createContactTest</span>
-                <span class="method-start">44246 ms</span>
+                <span class="method-start">30032 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AMLogoutTOApplication</span>
-                <span class="method-start">90512 ms</span>
+                <span class="method-start">53130 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">ACCloseBrowser</span>
-                <span class="method-start">90681 ms</span>
+                <span class="method-start">53286 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Leads.CreateLeadsWithLeadSourceTest</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">BCLaunchBrowser</span>
-                <span class="method-start">91245 ms</span>
+                <span class="method-start">53540 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">BMLoginTOApplication</span>
-                <span class="method-start">95049 ms</span>
+                <span class="method-start">55766 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">createLeadWithLeadSourceTest</span>
-                <span class="method-start">102232 ms</span>
+                <span class="method-start">62116 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">AMLogoutTOApplication</span>
-                <span class="method-start">122167 ms</span>
+                <span class="method-start">71593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">ACCloseBrowser</span>
-                <span class="method-start">122339 ms</span>
+                <span class="method-start">71762 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Opportunities.CreateOpportunitiesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BCLaunchBrowser</span>
+                <span class="method-start">72006 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">BMLoginTOApplication</span>
+                <span class="method-start">74454 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createOpportunitiesTest</span>
+                <span class="method-start">80796 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">AMLogoutTOApplication</span>
+                <span class="method-start">105194 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">ACCloseBrowser</span>
+                <span class="method-start">105366 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">Organisation.CreateOrganizationWithChemicalsTest</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">AS</span>
-                <span class="method-start">124242 ms</span>
+                <span class="method-start">106455 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -12,6 +12,7 @@
 			<class name="Organisation.CreateOrganizationWithChemicalsTest" />
 			<class name="Contacts.CreateContactTest" />
 			<class name="Leads.CreateLeadsWithLeadSourceTest" />
+			<class name="Opportunities.CreateOpportunitiesTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
