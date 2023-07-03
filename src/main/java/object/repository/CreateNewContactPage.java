@@ -54,5 +54,10 @@ public class CreateNewContactPage extends WebDriverUtility {
 		switchToWindow(d, "Contacts");
 		SaveBtn.click();
 	}
+	
+	public void createNewContact(WebDriver d, String LASTNAME) {
+		LastName.sendKeys(LASTNAME);
+		SaveBtn.click();
+	}
 
 }
