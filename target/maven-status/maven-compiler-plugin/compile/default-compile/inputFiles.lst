@@ -5,6 +5,7 @@ C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\We
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\OrganizationInfoPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\JavaUtility.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\ContactPage.java
+C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\opportunities\CreatingNewOpportunityPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\BaseClass.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\ContactInfoPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\CreateNewContactPage.java
@@ -14,6 +15,7 @@ C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\LoginP
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\OrganizationsPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\LeadsPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\PropertyFileUtility.java
+C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\opportunities\OpportunitiesPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\ListenersImplementation.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\CreateNewLeadPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\ExcelFileUtility.java
