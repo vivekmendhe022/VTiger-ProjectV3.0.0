@@ -1,3 +1,4 @@
 Contacts\CreateContactTest.class
 Organisation\CreateOrganizationWithChemicalsTest.class
 Leads\CreateLeadsWithLeadSourceTest.class
+Opportunities\CreateOpportunitiesTest.class

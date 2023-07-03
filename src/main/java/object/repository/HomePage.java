@@ -24,6 +24,9 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText = "Leads")
 	private WebElement LeadsLink;
 
+	@FindBy(linkText = "Opportunities")
+	private WebElement Opportunities;
+
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -48,6 +51,10 @@ public class HomePage extends WebDriverUtility {
 		return LeadsLink;
 	}
 
+	public WebElement getOpportunities() {
+		return Opportunities;
+	}
+
 	public void clickOnOrganizationLink() {
 		Organizations.click();
 	}
@@ -59,9 +66,13 @@ public class HomePage extends WebDriverUtility {
 	public void logoutToApplication(WebDriver d) {
 		mouseHoverAction(d, AdministratorLookUpImg);
 	}
-	
+
 	public void clickOnLeadsLink() {
 		LeadsLink.click();
+	}
+
+	public void clickOnOpportunitiesLink() {
+		Opportunities.click();
 	}
 
 }

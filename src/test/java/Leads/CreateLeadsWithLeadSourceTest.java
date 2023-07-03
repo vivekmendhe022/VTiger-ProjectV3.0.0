@@ -19,11 +19,18 @@ import object.repository.LeadsPage;
 public class CreateLeadsWithLeadSourceTest extends BaseClass {
 	@Test
 	public void createLeadWithLeadSourceTest() throws EncryptedDocumentException, IOException {
+
+		String expecedLeadsPageTitle = "Administrator - Leads - vtiger CRM 5 - Commercial Open Source CRM";
+
 		HomePage hp = new HomePage(d);
 		hp.clickOnLeadsLink();
+		Assert.assertEquals(d.getTitle(), expecedLeadsPageTitle, "Error: Leads page not display");
+		Reporter.log("Leads page is display ", true);
 
 		LeadsPage lead = new LeadsPage(d);
 		lead.clickOnCreateLeadsLookUpImg();
+		Assert.assertEquals(d.getTitle(), expecedLeadsPageTitle, "Error: Create New Lead page not display");
+		Reporter.log("Create New Lead page is display ", true);
 
 		String LASTNAME = eutil.readDataFromExcel("Leads", 4, 2);
 		String LEADSOURCE = eutil.readDataFromExcel("Leads", 4, 3);

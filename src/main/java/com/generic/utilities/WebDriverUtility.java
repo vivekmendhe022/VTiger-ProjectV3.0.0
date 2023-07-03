@@ -153,7 +153,7 @@ public class WebDriverUtility {
 	}
 
 	/**
-	 * This method will perform drag & drop actio on source to target.
+	 * This method will perform drag & drop action on source to target.
 	 * 
 	 * @param d
 	 * @param source

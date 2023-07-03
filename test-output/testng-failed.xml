@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Organisation.CreateOrganizationWithChemicalsTest">
+      <class name="Opportunities.CreateOpportunitiesTest">
         <methods>
           <include name="AMLogoutTOApplication"/>
           <include name="BMLoginTOApplication"/>
           <include name="BS"/>
           <include name="AS"/>
-          <include name="createOrganizationWithChemicalsTest"/>
+          <include name="createOpportunitiesTest"/>
           <include name="BCLaunchBrowser"/>
           <include name="ACCloseBrowser"/>
         </methods>
-      </class> <!-- Organisation.CreateOrganizationWithChemicalsTest -->
+      </class> <!-- Opportunities.CreateOpportunitiesTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
