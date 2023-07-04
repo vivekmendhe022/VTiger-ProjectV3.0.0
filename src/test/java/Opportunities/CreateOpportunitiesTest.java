@@ -24,7 +24,7 @@ public class CreateOpportunitiesTest extends BaseClass {
 
 		String OPNAME = "Gate";
 		String ORGNAME = r + "Microsoft";
-//		String DATE = "2023-07-17";
+		String AssignedTo = "group";
 		String SALESSTAGE = "Needs Analysis";
 
 		HomePage hp = new HomePage(d);
@@ -36,6 +36,7 @@ public class CreateOpportunitiesTest extends BaseClass {
 
 		CreateNewOrganizationPage createNewOrganizationPage = new CreateNewOrganizationPage(d);
 		createNewOrganizationPage.createOrg(ORGNAME);
+
 		OrganizationInfoPage orgheader = new OrganizationInfoPage(d);
 		String oheader = orgheader.getHeader();
 		Assert.assertTrue(oheader.contains(ORGNAME));
@@ -53,7 +54,7 @@ public class CreateOpportunitiesTest extends BaseClass {
 		Reporter.log("Creating New Opportunity page is displyed.", true);
 
 		CreatingNewOpportunityPage creatingNewOpportunityPage = new CreatingNewOpportunityPage(d);
-		creatingNewOpportunityPage.createOpprtunitiesWithOrgUser(d, OPNAME, ORGNAME, SALESSTAGE);
-		
+		creatingNewOpportunityPage.createOpprtunitiesWithOrgUser(d, OPNAME, ORGNAME, AssignedTo, SALESSTAGE);
+
 	}
 }
