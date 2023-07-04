@@ -8,24 +8,7 @@
       <![CDATA[Creating New Opportunity page is displyed.]]>
     </line>
   </reporter-output>
-  <suite started-at="2023-07-03T23:36:12 IST" name="Default suite" finished-at="2023-07-03T23:36:37 IST" duration-ms="24933">
-    <groups>
-    </groups>
-    <test started-at="2023-07-03T23:36:12 IST" name="Default test" finished-at="2023-07-03T23:36:37 IST" duration-ms="24933">
-      <class name="Opportunities.CreateOpportunitiesTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:Opportunities.CreateOpportunitiesTest@71d44a3]" started-at="2023-07-03T23:36:12 IST" name="BS" finished-at="2023-07-03T23:36:12 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Opportunities.CreateOpportunitiesTest@71d44a3]" started-at="2023-07-03T23:36:12 IST" name="BCLaunchBrowser" finished-at="2023-07-03T23:36:16 IST" duration-ms="3737" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Opportunities.CreateOpportunitiesTest@71d44a3]" started-at="2023-07-03T23:36:16 IST" name="BMLoginTOApplication" finished-at="2023-07-03T23:36:20 IST" duration-ms="3616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createOpportunitiesTest()[pri:0, instance:Opportunities.CreateOpportunitiesTest@71d44a3]" started-at="2023-07-03T23:36:20 IST" name="createOpportunitiesTest" finished-at="2023-07-03T23:36:37 IST" duration-ms="17003" status="PASS">
+
           <reporter-output>
             <line>
               <![CDATA[Opportunities page is diplayed.]]>
@@ -35,15 +18,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- createOpportunitiesTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Opportunities.CreateOpportunitiesTest@71d44a3]" started-at="2023-07-03T23:36:37 IST" name="AMLogoutTOApplication" finished-at="2023-07-03T23:36:37 IST" duration-ms="157" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Opportunities.CreateOpportunitiesTest@71d44a3]" started-at="2023-07-03T23:36:37 IST" name="ACCloseBrowser" finished-at="2023-07-03T23:36:37 IST" duration-ms="365" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ACCloseBrowser -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:Opportunities.CreateOpportunitiesTest@71d44a3]" started-at="2023-07-03T23:36:37 IST" name="AS" finished-at="2023-07-03T23:36:37 IST" duration-ms="1" status="PASS">
+
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
