@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Opportunities.CreateOpportunitiesTest">
+      <class name="Opportunities.CreateOpprtunitiesWithContactsTest">
         <methods>
           <include name="AMLogoutTOApplication"/>
           <include name="BMLoginTOApplication"/>
           <include name="BS"/>
           <include name="AS"/>
-          <include name="createOpportunitiesTest"/>
+          <include name="createOpprtunitiesWithContactsTest"/>
           <include name="BCLaunchBrowser"/>
           <include name="ACCloseBrowser"/>
         </methods>
-      </class> <!-- Opportunities.CreateOpportunitiesTest -->
+      </class> <!-- Opportunities.CreateOpprtunitiesWithContactsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

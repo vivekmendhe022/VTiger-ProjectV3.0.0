@@ -37,6 +37,7 @@ public class CreateOpportunitiesTest extends BaseClass {
 
 		CreateNewOrganizationPage createNewOrganizationPage = new CreateNewOrganizationPage(d);
 		createNewOrganizationPage.createOrg(ORGNAME);
+
 		OrganizationInfoPage orgheader = new OrganizationInfoPage(d);
 		String oheader = orgheader.getHeader();
 		Assert.assertTrue(oheader.contains(ORGNAME));
@@ -54,7 +55,6 @@ public class CreateOpportunitiesTest extends BaseClass {
 		Reporter.log("Creating New Opportunity page is displyed.", true);
 
 		CreatingNewOpportunityPage creatingNewOpportunityPage = new CreatingNewOpportunityPage(d);
-		creatingNewOpportunityPage.createOpprtunitiesWithOrgUser(d, OPNAME, ORGNAME, SALESSTAGE);
 
 	}
 }

@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import com.generic.utilities.BaseClass;
+import com.generic.utilities.PropertyFileUtility;
 import com.generic.utilities.WebDriverUtility;
 
 public class CreatingNewOpportunityPage extends WebDriverUtility {
@@ -58,7 +60,35 @@ public class CreatingNewOpportunityPage extends WebDriverUtility {
 		return CreatingNewOpportunityTitle.getText();
 	}
 
-	public void createOpprtunitiesWithOrgUser(WebDriver d, String OPNAME, String ORGNAME, String SALESSTAGE) throws InterruptedException {
+	public void createOpprtunitiesWithContactsUser(WebDriver d, String OPNAME, String LASTNAME, String AssignedTo,
+			String SALESSTAGE) throws InterruptedException {
+
+		OpportunityNameTextField.sendKeys(OPNAME);
+		selectByIndex(d, RelatedToDropDownList, 1);
+		SelectContactOrganizationLookUpImg.click();
+		switchToWindow(d, "Contacts");
+		SearchTextField.sendKeys(LASTNAME);
+		SearchBtn.click();
+		d.findElement(By.xpath("//a[.=' " + LASTNAME + "']")).click();
+		switchToWindow(d, "Potentials");
+
+		if (AssignedTo.equalsIgnoreCase("user")) {
+			AssignedToUserRadioBtn.click();
+		} else if (AssignedTo.equalsIgnoreCase("group")) {
+			AssignedToGroupRadioBtn.click();
+		} else {
+			System.out.println("Invalid: click on user or group");
+		}
+
+		ExpectedCloseDateTextField.clear();
+		Thread.sleep(3000);
+		ExpectedCloseDateTextField.sendKeys(dateAfter15Days());
+		selectByIndex(d, SalesStageDropDownList, SALESSTAGE);
+		SaveBtn.click();
+	}
+
+	public void createOpprtunitiesWithOrgUser(WebDriver d, String OPNAME, String ORGNAME, String AssignedTo,
+			String SALESSTAGE) throws InterruptedException {
 
 		OpportunityNameTextField.sendKeys(OPNAME);
 		selectByIndex(d, RelatedToDropDownList, 0);
@@ -68,7 +98,13 @@ public class CreatingNewOpportunityPage extends WebDriverUtility {
 		SearchBtn.click();
 		d.findElement(By.xpath("//a[.='" + ORGNAME + "']")).click();
 		switchToWindow(d, "Potentials");
-		AssignedToUserRadioBtn.click();
+		if (AssignedTo.equalsIgnoreCase("user")) {
+			AssignedToUserRadioBtn.click();
+		} else if (AssignedTo.equalsIgnoreCase("group")) {
+			AssignedToGroupRadioBtn.click();
+		} else {
+			System.out.println("Invalid: click on user or group");
+		}
 		ExpectedCloseDateTextField.clear();
 		Thread.sleep(3000);
 		ExpectedCloseDateTextField.sendKeys(dateAfter15Days());
