@@ -53,6 +53,7 @@
       <![CDATA[Creating New Opportunity page is displyed.]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2023-07-05T13:44:58 IST" name="Suite" finished-at="2023-07-05T13:47:41 IST" duration-ms="163095">
     <groups>
       <group name="RegressionSuit">
@@ -192,6 +193,9 @@
           </reporter-output>
         </test-method> <!-- BMLoginTOApplication -->
         <test-method signature="createOpportunitiesTest()[pri:0, instance:Opportunities.CreateOpportunitiesTest@3b0090a4]" started-at="2023-07-05T13:47:08 IST" name="createOpportunitiesTest" finished-at="2023-07-05T13:47:40 IST" duration-ms="32428" status="PASS">
+=======
+
+>>>>>>> branch 'Opprtunities_Module' of https://github.com/vivekmendhe022/VTiger-ProjectV3.0.0.git
           <reporter-output>
             <line>
               <![CDATA[Opportunities page is diplayed.]]>
@@ -201,6 +205,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- createOpportunitiesTest -->
+<<<<<<< HEAD
         <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Opportunities.CreateOpportunitiesTest@3b0090a4]" started-at="2023-07-05T13:47:40 IST" name="AMLogoutTOApplication" finished-at="2023-07-05T13:47:41 IST" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -236,6 +241,9 @@
           </reporter-output>
         </test-method> <!-- ACCloseBrowser -->
         <test-method is-config="true" signature="AS()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:47:41 IST" name="AS" finished-at="2023-07-05T13:47:41 IST" duration-ms="0" status="PASS">
+=======
+
+>>>>>>> branch 'Opprtunities_Module' of https://github.com/vivekmendhe022/VTiger-ProjectV3.0.0.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->

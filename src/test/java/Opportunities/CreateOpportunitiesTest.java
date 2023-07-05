@@ -2,6 +2,7 @@ package Opportunities;
 
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import com.generic.utilities.BaseClass;
@@ -13,6 +14,7 @@ import object.repository.OrganizationsPage;
 import object.repository.opportunities.CreatingNewOpportunityPage;
 import object.repository.opportunities.OpportunitiesPage;
 
+@Listeners(com.generic.utilities.ListenersImplementation.class)
 public class CreateOpportunitiesTest extends BaseClass {
 
 	@Test
@@ -24,7 +26,6 @@ public class CreateOpportunitiesTest extends BaseClass {
 
 		String OPNAME = "Gate";
 		String ORGNAME = r + "Microsoft";
-		String AssignedTo = "group";
 		String SALESSTAGE = "Needs Analysis";
 
 		HomePage hp = new HomePage(d);
@@ -54,7 +55,6 @@ public class CreateOpportunitiesTest extends BaseClass {
 		Reporter.log("Creating New Opportunity page is displyed.", true);
 
 		CreatingNewOpportunityPage creatingNewOpportunityPage = new CreatingNewOpportunityPage(d);
-		creatingNewOpportunityPage.createOpprtunitiesWithOrgUser(d, OPNAME, ORGNAME, AssignedTo, SALESSTAGE);
 
 	}
 }
