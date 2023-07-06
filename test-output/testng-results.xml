@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="7" passed="5" failed="0" skipped="0">
+<testng-results ignored="6" total="10" passed="4" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Organisation link click successful]]>
     </line>
     <line>
+      <![CDATA[Create Organisation look up IMG link click successful]]>
+    </line>
+    <line>
+      <![CDATA[Organisation & Industry entered successful]]>
+    </line>
+    <line>
+      <![CDATA[Bipro406 create successfully...!]]>
+    </line>
+    <line>
       <![CDATA[Organisation link click successful]]>
     </line>
     <line>
-      <![CDATA[Leads page is display ]]>
-    </line>
-    <line>
-      <![CDATA[Create New Lead page is display ]]>
-    </line>
-    <line>
-      <![CDATA[Create Organisation look up IMG link click successful]]>
-    </line>
-    <line>
       <![CDATA[Create Organisation look up IMG link click successful]]>
     </line>
     <line>
       <![CDATA[Organisation & Industry entered successful]]>
     </line>
     <line>
-      <![CDATA[Organisation & Industry entered successful]]>
-    </line>
-    <line>
-      <![CDATA[New Leads created sucessfully..!]]>
-    </line>
-    <line>
-      <![CDATA[Bipro679 create successfully...!]]>
-    </line>
-    <line>
-      <![CDATA[Bipro179 create successfully...!]]>
+      <![CDATA[Bipro266 create successfully...!]]>
     </line>
     <line>
       <![CDATA[Contacts page display]]>
@@ -44,7 +35,16 @@
       <![CDATA[Lasname & Orgname entered Successful]]>
     </line>
     <line>
-      <![CDATA[Gandhi679 create successfully...!]]>
+      <![CDATA[Gandhi266 create successfully...!]]>
+    </line>
+    <line>
+      <![CDATA[Leads page is display ]]>
+    </line>
+    <line>
+      <![CDATA[Create New Lead page is display ]]>
+    </line>
+    <line>
+      <![CDATA[New Leads created sucessfully..!]]>
     </line>
     <line>
       <![CDATA[Opportunities page is diplayed.]]>
@@ -53,65 +53,28 @@
       <![CDATA[Creating New Opportunity page is displyed.]]>
     </line>
   </reporter-output>
-<<<<<<< HEAD
-  <suite started-at="2023-07-05T13:44:58 IST" name="Suite" finished-at="2023-07-05T13:47:41 IST" duration-ms="163095">
+  <suite started-at="2023-07-06T17:36:48 IST" name="Suite" finished-at="2023-07-06T17:38:42 IST" duration-ms="113461">
     <groups>
       <group name="RegressionSuit">
-        <method signature="CreateOrganizationWithChemicalsTest.createOrganizationWithChemicalsTest()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@78691363]" name="createOrganizationWithChemicalsTest" class="Organisation.CreateOrganizationWithChemicalsTest"/>
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:Contacts.CreateContactTest@217ed35e]" name="createContactTest" class="Contacts.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:Contacts.CreateContactTest@51399530]" name="createContactTest" class="Contacts.CreateContactTest"/>
+        <method signature="CreateOrganizationWithChemicalsTest.createOrganizationWithChemicalsTest()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" name="createOrganizationWithChemicalsTest" class="Organisation.CreateOrganizationWithChemicalsTest"/>
       </group> <!-- RegressionSuit -->
       <group name="SmokeSuit">
-        <method signature="CreateOrganizationWithChemicalsTest.createOrganizationWithChemicalsTest()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@78691363]" name="createOrganizationWithChemicalsTest" class="Organisation.CreateOrganizationWithChemicalsTest"/>
-        <method signature="CreateContactTest.createContactTest()[pri:0, instance:Contacts.CreateContactTest@217ed35e]" name="createContactTest" class="Contacts.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactTest()[pri:0, instance:Contacts.CreateContactTest@51399530]" name="createContactTest" class="Contacts.CreateContactTest"/>
+        <method signature="CreateOrganizationWithChemicalsTest.createOrganizationWithChemicalsTest()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" name="createOrganizationWithChemicalsTest" class="Organisation.CreateOrganizationWithChemicalsTest"/>
       </group> <!-- SmokeSuit -->
     </groups>
-    <test started-at="2023-07-05T13:44:58 IST" name="Test1" finished-at="2023-07-05T13:46:42 IST" duration-ms="103880">
-      <class name="Organisation.CreateOrganizationWithChemicalsTest">
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@78691363]" started-at="2023-07-05T13:44:59 IST" name="BCLaunchBrowser" finished-at="2023-07-05T13:45:10 IST" duration-ms="11058" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@78691363]" started-at="2023-07-05T13:45:10 IST" name="BMLoginTOApplication" finished-at="2023-07-05T13:45:39 IST" duration-ms="28893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createOrganizationWithChemicalsTest()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@78691363]" started-at="2023-07-05T13:45:39 IST" name="createOrganizationWithChemicalsTest" finished-at="2023-07-05T13:46:41 IST" duration-ms="61624" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Organisation link click successful]]>
-            </line>
-            <line>
-              <![CDATA[Create Organisation look up IMG link click successful]]>
-            </line>
-            <line>
-              <![CDATA[Organisation & Industry entered successful]]>
-            </line>
-            <line>
-              <![CDATA[Bipro179 create successfully...!]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createOrganizationWithChemicalsTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@78691363]" started-at="2023-07-05T13:46:41 IST" name="AMLogoutTOApplication" finished-at="2023-07-05T13:46:41 IST" duration-ms="258" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@78691363]" started-at="2023-07-05T13:46:41 IST" name="ACCloseBrowser" finished-at="2023-07-05T13:46:42 IST" duration-ms="923" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ACCloseBrowser -->
-      </class> <!-- Organisation.CreateOrganizationWithChemicalsTest -->
-    </test> <!-- Test1 -->
-    <test started-at="2023-07-05T13:44:58 IST" name="Test3" finished-at="2023-07-05T13:46:42 IST" duration-ms="103873">
+    <test started-at="2023-07-06T17:36:48 IST" name="Test" finished-at="2023-07-06T17:38:42 IST" duration-ms="113461">
       <class name="Leads.CreateLeadsWithLeadSourceTest">
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@77c2494c]" started-at="2023-07-05T13:44:59 IST" name="BCLaunchBrowser" finished-at="2023-07-05T13:45:10 IST" duration-ms="10901" status="PASS">
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@6b2ea799]" started-at="2023-07-06T17:37:50 IST" name="BCLaunchBrowser" finished-at="2023-07-06T17:37:53 IST" duration-ms="2783" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@77c2494c]" started-at="2023-07-05T13:45:10 IST" name="BMLoginTOApplication" finished-at="2023-07-05T13:45:43 IST" duration-ms="33661" status="PASS">
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@6b2ea799]" started-at="2023-07-06T17:37:53 IST" name="BMLoginTOApplication" finished-at="2023-07-06T17:37:57 IST" duration-ms="4240" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createLeadWithLeadSourceTest()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@77c2494c]" started-at="2023-07-05T13:45:43 IST" name="createLeadWithLeadSourceTest" finished-at="2023-07-05T13:46:40 IST" duration-ms="56977" status="PASS">
+        <test-method signature="createLeadWithLeadSourceTest()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@6b2ea799]" started-at="2023-07-06T17:37:57 IST" name="createLeadWithLeadSourceTest" finished-at="2023-07-06T17:38:13 IST" duration-ms="16078" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Leads page is display ]]>
@@ -124,27 +87,57 @@
             </line>
           </reporter-output>
         </test-method> <!-- createLeadWithLeadSourceTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@77c2494c]" started-at="2023-07-05T13:46:40 IST" name="AMLogoutTOApplication" finished-at="2023-07-05T13:46:41 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@6b2ea799]" started-at="2023-07-06T17:38:13 IST" name="AMLogoutTOApplication" finished-at="2023-07-06T17:38:13 IST" duration-ms="187" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@77c2494c]" started-at="2023-07-05T13:46:41 IST" name="ACCloseBrowser" finished-at="2023-07-05T13:46:42 IST" duration-ms="943" status="PASS">
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Leads.CreateLeadsWithLeadSourceTest@6b2ea799]" started-at="2023-07-06T17:38:13 IST" name="ACCloseBrowser" finished-at="2023-07-06T17:38:14 IST" duration-ms="380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ACCloseBrowser -->
       </class> <!-- Leads.CreateLeadsWithLeadSourceTest -->
-    </test> <!-- Test3 -->
-    <test started-at="2023-07-05T13:44:58 IST" name="Test2" finished-at="2023-07-05T13:46:59 IST" duration-ms="121055">
-      <class name="Contacts.CreateContactTest">
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Contacts.CreateContactTest@217ed35e]" started-at="2023-07-05T13:44:59 IST" name="BCLaunchBrowser" finished-at="2023-07-05T13:45:10 IST" duration-ms="10855" status="PASS">
+      <class name="Opportunities.CreateOpportunitiesTest">
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Opportunities.CreateOpportunitiesTest@411f53a0]" started-at="2023-07-06T17:38:14 IST" name="BCLaunchBrowser" finished-at="2023-07-06T17:38:16 IST" duration-ms="2761" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Contacts.CreateContactTest@217ed35e]" started-at="2023-07-05T13:45:10 IST" name="BMLoginTOApplication" finished-at="2023-07-05T13:45:40 IST" duration-ms="30022" status="PASS">
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Opportunities.CreateOpportunitiesTest@411f53a0]" started-at="2023-07-06T17:38:16 IST" name="BMLoginTOApplication" finished-at="2023-07-06T17:38:21 IST" duration-ms="4182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createContactTest()[pri:0, instance:Contacts.CreateContactTest@217ed35e]" started-at="2023-07-05T13:45:40 IST" name="createContactTest" finished-at="2023-07-05T13:46:58 IST" duration-ms="78178" status="PASS">
+        <test-method signature="createOpportunitiesTest()[pri:0, instance:Opportunities.CreateOpportunitiesTest@411f53a0]" started-at="2023-07-06T17:38:21 IST" name="createOpportunitiesTest" finished-at="2023-07-06T17:38:41 IST" duration-ms="20529" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Opportunities page is diplayed.]]>
+            </line>
+            <line>
+              <![CDATA[Creating New Opportunity page is displyed.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOpportunitiesTest -->
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Opportunities.CreateOpportunitiesTest@411f53a0]" started-at="2023-07-06T17:38:41 IST" name="AMLogoutTOApplication" finished-at="2023-07-06T17:38:41 IST" duration-ms="154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMLogoutTOApplication -->
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Opportunities.CreateOpportunitiesTest@411f53a0]" started-at="2023-07-06T17:38:41 IST" name="ACCloseBrowser" finished-at="2023-07-06T17:38:42 IST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACCloseBrowser -->
+      </class> <!-- Opportunities.CreateOpportunitiesTest -->
+      <class name="Organisation.CreateOrganizationWithChemicalsTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" started-at="2023-07-06T17:36:48 IST" name="BS" finished-at="2023-07-06T17:36:48 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BS -->
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" started-at="2023-07-06T17:36:49 IST" name="BCLaunchBrowser" finished-at="2023-07-06T17:36:52 IST" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BCLaunchBrowser -->
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" started-at="2023-07-06T17:36:52 IST" name="BMLoginTOApplication" finished-at="2023-07-06T17:36:54 IST" duration-ms="2339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMLoginTOApplication -->
+        <test-method signature="createOrganizationWithChemicalsTest()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" started-at="2023-07-06T17:36:54 IST" name="createOrganizationWithChemicalsTest" finished-at="2023-07-06T17:37:10 IST" duration-ms="15935" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Organisation link click successful]]>
@@ -156,7 +149,45 @@
               <![CDATA[Organisation & Industry entered successful]]>
             </line>
             <line>
-              <![CDATA[Bipro679 create successfully...!]]>
+              <![CDATA[Bipro406 create successfully...!]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganizationWithChemicalsTest -->
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" started-at="2023-07-06T17:37:10 IST" name="AMLogoutTOApplication" finished-at="2023-07-06T17:37:10 IST" duration-ms="201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AMLogoutTOApplication -->
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" started-at="2023-07-06T17:37:10 IST" name="ACCloseBrowser" finished-at="2023-07-06T17:37:11 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ACCloseBrowser -->
+        <test-method is-config="true" signature="AS()[pri:0, instance:Organisation.CreateOrganizationWithChemicalsTest@5fe94a96]" started-at="2023-07-06T17:38:42 IST" name="AS" finished-at="2023-07-06T17:38:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AS -->
+      </class> <!-- Organisation.CreateOrganizationWithChemicalsTest -->
+      <class name="Contacts.CreateContactTest">
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Contacts.CreateContactTest@51399530]" started-at="2023-07-06T17:37:11 IST" name="BCLaunchBrowser" finished-at="2023-07-06T17:37:13 IST" duration-ms="2691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BCLaunchBrowser -->
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Contacts.CreateContactTest@51399530]" started-at="2023-07-06T17:37:13 IST" name="BMLoginTOApplication" finished-at="2023-07-06T17:37:21 IST" duration-ms="7723" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BMLoginTOApplication -->
+        <test-method signature="createContactTest()[pri:0, instance:Contacts.CreateContactTest@51399530]" started-at="2023-07-06T17:37:21 IST" name="createContactTest" finished-at="2023-07-06T17:37:50 IST" duration-ms="28470" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Organisation link click successful]]>
+            </line>
+            <line>
+              <![CDATA[Create Organisation look up IMG link click successful]]>
+            </line>
+            <line>
+              <![CDATA[Organisation & Industry entered successful]]>
+            </line>
+            <line>
+              <![CDATA[Bipro266 create successfully...!]]>
             </line>
             <line>
               <![CDATA[Contacts page display]]>
@@ -168,86 +199,19 @@
               <![CDATA[Lasname & Orgname entered Successful]]>
             </line>
             <line>
-              <![CDATA[Gandhi679 create successfully...!]]>
+              <![CDATA[Gandhi266 create successfully...!]]>
             </line>
           </reporter-output>
         </test-method> <!-- createContactTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Contacts.CreateContactTest@217ed35e]" started-at="2023-07-05T13:46:58 IST" name="AMLogoutTOApplication" finished-at="2023-07-05T13:46:58 IST" duration-ms="204" status="PASS">
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Contacts.CreateContactTest@51399530]" started-at="2023-07-06T17:37:50 IST" name="AMLogoutTOApplication" finished-at="2023-07-06T17:37:50 IST" duration-ms="167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Contacts.CreateContactTest@217ed35e]" started-at="2023-07-05T13:46:58 IST" name="ACCloseBrowser" finished-at="2023-07-05T13:46:59 IST" duration-ms="669" status="PASS">
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Contacts.CreateContactTest@51399530]" started-at="2023-07-06T17:37:50 IST" name="ACCloseBrowser" finished-at="2023-07-06T17:37:50 IST" duration-ms="347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ACCloseBrowser -->
       </class> <!-- Contacts.CreateContactTest -->
-    </test> <!-- Test2 -->
-    <test started-at="2023-07-05T13:44:58 IST" name="Test4" finished-at="2023-07-05T13:47:41 IST" duration-ms="163094">
-      <class name="Opportunities.CreateOpportunitiesTest">
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Opportunities.CreateOpportunitiesTest@3b0090a4]" started-at="2023-07-05T13:47:02 IST" name="BCLaunchBrowser" finished-at="2023-07-05T13:47:05 IST" duration-ms="2424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Opportunities.CreateOpportunitiesTest@3b0090a4]" started-at="2023-07-05T13:47:05 IST" name="BMLoginTOApplication" finished-at="2023-07-05T13:47:08 IST" duration-ms="3229" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createOpportunitiesTest()[pri:0, instance:Opportunities.CreateOpportunitiesTest@3b0090a4]" started-at="2023-07-05T13:47:08 IST" name="createOpportunitiesTest" finished-at="2023-07-05T13:47:40 IST" duration-ms="32428" status="PASS">
-=======
-
->>>>>>> branch 'Opprtunities_Module' of https://github.com/vivekmendhe022/VTiger-ProjectV3.0.0.git
-          <reporter-output>
-            <line>
-              <![CDATA[Opportunities page is diplayed.]]>
-            </line>
-            <line>
-              <![CDATA[Creating New Opportunity page is displyed.]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createOpportunitiesTest -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Opportunities.CreateOpportunitiesTest@3b0090a4]" started-at="2023-07-05T13:47:40 IST" name="AMLogoutTOApplication" finished-at="2023-07-05T13:47:41 IST" duration-ms="188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Opportunities.CreateOpportunitiesTest@3b0090a4]" started-at="2023-07-05T13:47:41 IST" name="ACCloseBrowser" finished-at="2023-07-05T13:47:41 IST" duration-ms="315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ACCloseBrowser -->
-      </class> <!-- Opportunities.CreateOpportunitiesTest -->
-      <class name="Opportunities.CreateOpprtunitiesWithContactsTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:44:58 IST" name="BS" finished-at="2023-07-05T13:44:58 IST" duration-ms="28" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:44:58 IST" name="BCLaunchBrowser" finished-at="2023-07-05T13:45:10 IST" duration-ms="11986" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:45:10 IST" name="BMLoginTOApplication" finished-at="2023-07-05T13:45:44 IST" duration-ms="33736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createOpprtunitiesWithContactsTest()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:45:44 IST" name="createOpprtunitiesWithContactsTest" finished-at="2023-07-05T13:47:02 IST" duration-ms="78118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- createOpprtunitiesWithContactsTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:47:02 IST" name="AMLogoutTOApplication" finished-at="2023-07-05T13:47:02 IST" duration-ms="180" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:47:02 IST" name="ACCloseBrowser" finished-at="2023-07-05T13:47:02 IST" duration-ms="443" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ACCloseBrowser -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:Opportunities.CreateOpprtunitiesWithContactsTest@179ece50]" started-at="2023-07-05T13:47:41 IST" name="AS" finished-at="2023-07-05T13:47:41 IST" duration-ms="0" status="PASS">
-=======
-
->>>>>>> branch 'Opprtunities_Module' of https://github.com/vivekmendhe022/VTiger-ProjectV3.0.0.git
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AS -->
-      </class> <!-- Opportunities.CreateOpprtunitiesWithContactsTest -->
-    </test> <!-- Test4 -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
