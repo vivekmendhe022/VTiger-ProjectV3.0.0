@@ -1,3 +1,4 @@
+object\repository\campaigns\CampaingsInfoPage.class
 com\generic\utilities\ListenersImplementation.class
 object\repository\LeadsPage.class
 com\generic\utilities\ExcelFileUtility.class
@@ -5,6 +6,8 @@ com\generic\utilities\BaseClass.class
 object\repository\HomePage.class
 com\generic\utilities\WebDriverUtility.class
 object\repository\CreateNewLeadPage.class
+object\repository\campaigns\CreateNewCampaignPage.class
+object\repository\campaigns\CampaignsPage.class
 object\repository\CreateNewOrganizationPage.class
 object\repository\opportunities\CreatingNewOpportunityPage.class
 object\repository\ContactPage.class
