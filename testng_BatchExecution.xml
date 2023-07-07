@@ -13,6 +13,7 @@
 			<class name="Contacts.CreateContactTest" />
 			<class name="Leads.CreateLeadsWithLeadSourceTest" />
 			<class name="Opportunities.CreateOpportunitiesTest"/>
+			<class name="Campaigns.CreateCampaignsTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

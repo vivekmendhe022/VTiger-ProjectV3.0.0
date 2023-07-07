@@ -3,12 +3,15 @@ C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\Re
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\CreateNewOrganizationPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\WebDriverUtility.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\OrganizationInfoPage.java
+C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\campaigns\CampaignsPage.java
+C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\campaigns\CreateNewCampaignPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\JavaUtility.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\ContactPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\opportunities\CreatingNewOpportunityPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\BaseClass.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\ContactInfoPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\CreateNewContactPage.java
+C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\campaigns\CampaingsInfoPage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\HomePage.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\com\generic\utilities\IConstantUtility.java
 C:\Users\vivek\eclipse-workspace\VTiger_2\src\main\java\object\repository\LoginPage.java
