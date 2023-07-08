@@ -107,7 +107,7 @@ public class WebDriverUtility {
 	public void mouseHoverAction(WebDriver d, WebElement Element) {
 		Actions actions = new Actions(d);
 		actions.moveToElement(Element).perform();
-		
+
 	}
 
 	/**
@@ -267,6 +267,16 @@ public class WebDriverUtility {
 	public void scrollTo(WebDriver d, int x, int y) {
 		JavascriptExecutor js = (JavascriptExecutor) d;
 		js.executeScript("ScrollTo(x,y)");
+	}
+
+	public void scrollintoViewSendValue(WebDriver d, String value, WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) d;
+		js.executeScript("arguments[0].value='" + value + "'", element);
+	}
+
+	public void scrollintoViewClick(WebDriver d, WebElement element) {
+		JavascriptExecutor js = (JavascriptExecutor) d;
+		js.executeScript("arguments[0].click()", element);
 	}
 
 	/**
