@@ -1,6 +1,8 @@
 Contacts\CreateContactTest.class
 Organisation\CreateOrganizationWithChemicalsTest.class
 Leads\CreateLeadsWithLeadSourceTest.class
+Opportunities\AdvanceSearchOpprtunityTest.class
+Opportunities\EditOpportunitiesWithCampaignTest.class
 Opportunities\CreateOpportunitiesTest.class
 Campaigns\CreateCampaignsTest.class
 Opportunities\CreateOpprtunitiesWithContactsTest.class

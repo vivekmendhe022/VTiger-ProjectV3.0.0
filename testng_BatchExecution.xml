@@ -14,6 +14,7 @@
 			<class name="Leads.CreateLeadsWithLeadSourceTest" />
 			<class name="Opportunities.CreateOpportunitiesTest"/>
 			<class name="Campaigns.CreateCampaignsTest"/>
+			<class name="Opportunities.EditOpportunitiesWithCampaignTest"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -13,6 +13,7 @@ import object.repository.OrganizationInfoPage;
 import object.repository.OrganizationsPage;
 import object.repository.opportunities.CreatingNewOpportunityPage;
 import object.repository.opportunities.OpportunitiesPage;
+import object.repository.opportunities.OpportunityInfoPage;
 
 @Listeners(com.generic.utilities.ListenersImplementation.class)
 public class CreateOpportunitiesTest extends BaseClass {
@@ -27,9 +28,9 @@ public class CreateOpportunitiesTest extends BaseClass {
 		String OPNAME = "Gate";
 		String ORGNAME = r + "Microsoft";
 		String SALESSTAGE = "Needs Analysis";
+		String AssignedTo="user";
 
 		HomePage hp = new HomePage(d);
-
 		hp.clickOnOrganizationLink();
 
 		OrganizationsPage organizationsPage = new OrganizationsPage(d);
@@ -54,7 +55,12 @@ public class CreateOpportunitiesTest extends BaseClass {
 		Assert.assertTrue(header.equalsIgnoreCase("Creating New Opportunity"));
 		Reporter.log("Creating New Opportunity page is displyed.", true);
 
-		CreatingNewOpportunityPage creatingNewOpportunityPage = new CreatingNewOpportunityPage(d);
-
+		CreatingNewOpportunityPage cno = new CreatingNewOpportunityPage(d);
+		cno.createOpprtunitiesWithOrgUser(d, OPNAME, ORGNAME, AssignedTo, SALESSTAGE);
+		
+		OpportunityInfoPage cip=new OpportunityInfoPage(d);
+		String headerInfo = cip.getOpportunityHeaderInfo();
+		Assert.assertTrue(headerInfo.contains(OPNAME));
+		Reporter.log("Opprtunity created",true);
 	}
 }
