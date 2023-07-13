@@ -63,7 +63,7 @@
 		</profile>
 		
 		<profile>
-			<id>Parallel_Distribution</id>
+			<id>Parallel</id>
 			<build>
 				<plugins>
 					<plugin>
