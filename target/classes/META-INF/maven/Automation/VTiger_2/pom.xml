@@ -45,7 +45,7 @@
 		</profile>
 
 		<profile>
-			<id>BatchExecution</id>
+			<id>Batch</id>
 			<build>
 				<plugins>
 					<plugin>
@@ -54,7 +54,7 @@
 						<version>3.1.2</version>
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng_BatchExecution.xml</suiteXmlFile>
+								<suiteXmlFile>testng_Batch.xml</suiteXmlFile>
 							</suiteXmlFiles>
 						</configuration>
 					</plugin>
@@ -63,7 +63,7 @@
 		</profile>
 		
 		<profile>
-			<id>Parallel_Distribution</id>
+			<id>Parallel</id>
 			<build>
 				<plugins>
 					<plugin>

@@ -1,3 +1,4 @@
+object\repository\documents\CreateNewDocumentPage.class
 object\repository\LeadsPage.class
 com\generic\utilities\ExcelFileUtility.class
 com\generic\utilities\BaseClass.class
@@ -12,6 +13,7 @@ com\generic\utilities\JavaUtility.class
 object\repository\OrganizationInfoPage.class
 object\repository\OrganizationsPage.class
 object\repository\campaigns\CampaingsInfoPage.class
+object\repository\documents\DocumentsPage.class
 com\generic\utilities\ListenersImplementation.class
 object\repository\HomePage.class
 object\repository\CreateNewLeadPage.class
@@ -20,6 +22,7 @@ object\repository\opportunities\CreatingNewOpportunityPage.class
 object\repository\LeadsInfoPage.class
 object\repository\opportunities\OpportunityInfoPage.class
 object\repository\CreateNewContactPage.class
+object\repository\documents\DocumnetsInfoPage.class
 object\repository\LoginPage.class
 com\generic\utilities\RetryAnalyserImplementationUtility.class
 com\generic\utilities\IConstantUtility.class

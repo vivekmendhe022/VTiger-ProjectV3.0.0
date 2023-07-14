@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" thread-count="5" name="Suite">
+	<listeners>
+		<listener
+			class-name="com.generic.utilities.ListenersImplementation"></listener>
+	</listeners>
+	<test thread-count="5" parallel="tests" name="Test1">
+		<classes>
+			<class name="Opportunities.CreateOpprtunitiesWithContactsTest" />
+			<class name="Organisation.CreateOrganizationWithChemicalsTest" />
+			<class name="Documents.CreateDocumentUsingDownloadTypeTest" />
+			<class name="Documents.CreateDoucumentTest" />
+			<class name="Leads.CreateLeadsWithLeadSourceTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" parallel="tests" name="Test2">
+		<classes>
+			<class name="Opportunities.CreateOpportunitiesTest" />
+			<class name="Campaigns.CreateCampaignsTest" />
+			<class name="Documents.CreateDocumentUsingDescriptionTest" />
+			<class name="Documents.CreateDocumentUsingUploadFileTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

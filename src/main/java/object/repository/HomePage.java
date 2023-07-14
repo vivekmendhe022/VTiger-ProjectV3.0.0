@@ -29,9 +29,12 @@ public class HomePage extends WebDriverUtility {
 
 	@FindBy(xpath = "//a[@href='javascript:;'][normalize-space()='More']")
 	private WebElement More;
-	
+
 	@FindBy(linkText = "Campaigns")
 	private WebElement CampaingsLinkText;
+
+	@FindBy(linkText = "Documents")
+	private WebElement DocumentsLinkText;
 
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
@@ -61,6 +64,18 @@ public class HomePage extends WebDriverUtility {
 		return Opportunities;
 	}
 
+	public WebElement getMore() {
+		return More;
+	}
+
+	public WebElement getCampaingsLinkText() {
+		return CampaingsLinkText;
+	}
+
+	public WebElement getDocumentsLinkText() {
+		return DocumentsLinkText;
+	}
+
 	public void clickOnOrganizationLink() {
 		Organizations.click();
 	}
@@ -84,9 +99,13 @@ public class HomePage extends WebDriverUtility {
 	public void hoverOnMore(WebDriver d) {
 		mouseHoverAction(d, More);
 	}
-	
+
 	public void clickOnCampaingsLinkText() {
 		CampaingsLinkText.click();
+	}
+
+	public void clickOnDocumentsLinkText() {
+		DocumentsLinkText.click();
 	}
 
 }
