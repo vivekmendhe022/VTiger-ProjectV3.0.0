@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="object.repository.opportunities.AdvanceSearchOpprtunityTest">
+      <class name="Documents.CreateDocumentUsingUploadFileTest">
         <methods>
           <include name="AMLogoutTOApplication"/>
           <include name="BMLoginTOApplication"/>
+          <include name="createDocumentTest"/>
           <include name="BS"/>
           <include name="AS"/>
-          <include name="searchAdvanceOpprtunityTest"/>
           <include name="BCLaunchBrowser"/>
           <include name="ACCloseBrowser"/>
         </methods>
-      </class> <!-- object.repository.opportunities.AdvanceSearchOpprtunityTest -->
+      </class> <!-- Documents.CreateDocumentUsingUploadFileTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
