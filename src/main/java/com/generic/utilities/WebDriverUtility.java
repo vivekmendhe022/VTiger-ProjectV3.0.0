@@ -1,5 +1,8 @@
 package com.generic.utilities;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -61,7 +64,7 @@ public class WebDriverUtility {
 	 * @param element
 	 */
 	public void waitForElementClickable(WebDriver d, WebElement element) {
-		WebDriverWait wait = new WebDriverWait(d, Duration.ofSeconds(20));
+		WebDriverWait wait = new WebDriverWait(d, Duration.ofSeconds(40));
 		wait.until(ExpectedConditions.elementToBeClickable(element));
 	}
 
@@ -365,6 +368,25 @@ public class WebDriverUtility {
 			if (actualTitle.contains(partialwindowTitle)) {
 				break;
 			}
+		}
+	}
+
+	/**
+	 * This method will handle the authentication pop up using robot class
+	 * 
+	 * @param key1
+	 * @param key2
+	 * @throws AWTException
+	 */
+	public void handleRobotClass(String key1, String key2) throws AWTException {
+		Robot robot = new Robot();
+		String username = key1;
+		String password = key2;
+
+		for (char c : (username + "\t" + password + "\n").toCharArray()) {
+			int keyCode = KeyEvent.getExtendedKeyCodeForChar(c);
+			robot.keyPress(keyCode);
+			robot.keyRelease(keyCode);
 		}
 	}
 }
