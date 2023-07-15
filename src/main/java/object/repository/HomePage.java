@@ -36,6 +36,12 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText = "Documents")
 	private WebElement DocumentsLinkText;
 
+	@FindBy(linkText = "Trouble Tickets")
+	private WebElement TroubleTicketsLinkText;
+
+	@FindBy(linkText = "Products")
+	private WebElement ProductLinkText;
+
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -106,6 +112,13 @@ public class HomePage extends WebDriverUtility {
 
 	public void clickOnDocumentsLinkText() {
 		DocumentsLinkText.click();
+	}
+
+	public void clickOnTroubleTicketsLinkText() {
+		TroubleTicketsLinkText.click();
+	}
+	public void clickOnProductLinkText() {
+		ProductLinkText.click();
 	}
 
 }
