@@ -42,6 +42,9 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText = "Products")
 	private WebElement ProductLinkText;
 
+	@FindBy(linkText = "Invoice")
+	private WebElement InvoiceLinkText;
+
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -117,8 +120,14 @@ public class HomePage extends WebDriverUtility {
 	public void clickOnTroubleTicketsLinkText() {
 		TroubleTicketsLinkText.click();
 	}
+
 	public void clickOnProductLinkText() {
 		ProductLinkText.click();
+	}
+
+	public void clickOnInvoiceLinkText(WebDriver d) {
+		hoverOnMore(d);
+		InvoiceLinkText.click();
 	}
 
 }

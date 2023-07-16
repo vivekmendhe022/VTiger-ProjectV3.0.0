@@ -196,7 +196,8 @@ public class CreateNewTicketPage extends WebDriverUtility {
 	}
 
 	public void createTroubleTicketWithAllCredentials(WebDriver d, String TITLE, String ORGNAME, String PRODUCT,
-			String ASSIGNEDTO, String PRIORITY, String STATUS, String SEVERITY, String CATEGORY, String DESCRIPTION) {
+			String ASSIGNEDTO, String PRIORITY, String STATUS, String SEVERITY, String CATEGORY, String DESCRIPTION)
+			throws InterruptedException {
 		TitleTextarea.sendKeys(TITLE);
 		handleDropDown(ParentTypeDropDownList, 1);
 		ParentTypeLookUpIcon.click();
@@ -205,6 +206,7 @@ public class CreateNewTicketPage extends WebDriverUtility {
 		SearchBtn.click();
 		d.findElement(By.xpath("//a[normalize-space()='" + ORGNAME + "']")).click();
 		switchToWindow(d, "HelpDesk");
+		
 		if (ASSIGNEDTO.equals("user")) {
 			AssignedToUserRadioButton.click();
 		} else if (ASSIGNEDTO.equals("group")) {
@@ -213,6 +215,7 @@ public class CreateNewTicketPage extends WebDriverUtility {
 		} else {
 			System.out.println("Invalid action select: 'user''group'");
 		}
+		
 		waitForElementClickable(d, ProductNameLookUpIcon);
 		ProductNameLookUpIcon.click();
 		switchToWindow(d, "Products");
