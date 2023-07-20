@@ -33,7 +33,6 @@ public class CreateInvoiceTest extends BaseClass {
 
 		InvoiceInfoPage iip = new InvoiceInfoPage(d);
 		String headerInfo = iip.getInvoiceHeaderInfo();
-
 		Assert.assertTrue(headerInfo.contains(SUBJECT));
 
 	}

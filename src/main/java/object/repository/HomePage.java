@@ -45,6 +45,9 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText = "Invoice")
 	private WebElement InvoiceLinkText;
 
+	@FindBy(linkText = "Sales Order")
+	private WebElement SalesOrderLinkText;
+
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -83,6 +86,22 @@ public class HomePage extends WebDriverUtility {
 
 	public WebElement getDocumentsLinkText() {
 		return DocumentsLinkText;
+	}
+
+	public WebElement getTroubleTicketsLinkText() {
+		return TroubleTicketsLinkText;
+	}
+
+	public WebElement getProductLinkText() {
+		return ProductLinkText;
+	}
+
+	public WebElement getInvoiceLinkText() {
+		return InvoiceLinkText;
+	}
+
+	public WebElement getSalesOrderLinkText() {
+		return SalesOrderLinkText;
 	}
 
 	public void clickOnOrganizationLink() {
@@ -128,6 +147,11 @@ public class HomePage extends WebDriverUtility {
 	public void clickOnInvoiceLinkText(WebDriver d) {
 		hoverOnMore(d);
 		InvoiceLinkText.click();
+	}
+
+	public void clickOnSalesOrderLinkText(WebDriver d) {
+		hoverOnMore(d);
+		SalesOrderLinkText.click();
 	}
 
 }

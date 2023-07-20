@@ -25,7 +25,7 @@ public class CreateInvoicePage extends WebDriverUtility {
 	@FindBy(xpath = "//img[@id='searchIcon1']")
 	private WebElement ProductLookUpImg;
 
-	@FindBy(xpath = "//input[@id='qty1']")
+	@FindBy(id = "qty1")
 	private WebElement QualityTextField;
 
 	@FindBy(name = "search_text")
@@ -53,13 +53,16 @@ public class CreateInvoicePage extends WebDriverUtility {
 		switchToWindow(d, "Invoice");
 		BillingAddressTextField.sendKeys(BillingAddress);
 		ShippingAddressTextField.sendKeys(ShippingAddress);
+		ProductLookUpImg.click();
 		switchToWindow(d, "Products");
 		SearchTextField.sendKeys(PRODUCT);
 		SearchBtn.click();
 		d.findElement(By.xpath("//a[normalize-space()='" + PRODUCT + "']")).click();
 		acceptAlert(d);
 		switchToWindow(d, "Invoice");
+		QualityTextField.clear();
 		QualityTextField.sendKeys(QTY);
+//		scrollintoViewSendValue(d, QTY, QualityTextField);
 		SaveBtn.click();
 	}
 
