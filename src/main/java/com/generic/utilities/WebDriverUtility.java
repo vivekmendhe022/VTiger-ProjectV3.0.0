@@ -181,6 +181,11 @@ public class WebDriverUtility {
 		actions.dragAndDropBy(source, x, y);
 	}
 
+	public void moveByOffset(WebDriver d, WebElement source, int x, int y) {
+		Actions actions = new Actions(d);
+		actions.moveByOffset(x, y);
+	}
+
 	/**
 	 * This method will switch to frame using index.
 	 * 
