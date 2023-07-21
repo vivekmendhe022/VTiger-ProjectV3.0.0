@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Invoices.CreateInvoiceTest">
+      <class name="SalesOrder.CreateSalesOrderTest">
         <methods>
           <include name="AMLogoutTOApplication"/>
           <include name="BMLoginTOApplication"/>
-          <include name="createInvoiceTest"/>
           <include name="BS"/>
           <include name="AS"/>
+          <include name="createSalesOrderTest"/>
           <include name="BCLaunchBrowser"/>
           <include name="ACCloseBrowser"/>
         </methods>
-      </class> <!-- Invoices.CreateInvoiceTest -->
+      </class> <!-- SalesOrder.CreateSalesOrderTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

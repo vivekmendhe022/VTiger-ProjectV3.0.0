@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-19T18:55:58 IST" name="Default suite" finished-at="2023-07-19T18:56:27 IST" duration-ms="29154">
+  <suite started-at="2023-07-21T12:10:09 IST" name="Default suite" finished-at="2023-07-21T12:10:23 IST" duration-ms="14349">
     <groups>
     </groups>
-    <test started-at="2023-07-19T18:55:58 IST" name="Default test" finished-at="2023-07-19T18:56:27 IST" duration-ms="29154">
-      <class name="Invoices.CreateInvoiceTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:Invoices.CreateInvoiceTest@71d44a3]" started-at="2023-07-19T18:55:58 IST" name="BS" finished-at="2023-07-19T18:55:58 IST" duration-ms="16" status="PASS">
+    <test started-at="2023-07-21T12:10:09 IST" name="Default test" finished-at="2023-07-21T12:10:23 IST" duration-ms="14349">
+      <class name="SalesOrder.CreateSalesOrderTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:SalesOrder.CreateSalesOrderTest@65fb9ffc]" started-at="2023-07-21T12:10:09 IST" name="BS" finished-at="2023-07-21T12:10:09 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Invoices.CreateInvoiceTest@71d44a3]" started-at="2023-07-19T18:55:58 IST" name="BCLaunchBrowser" finished-at="2023-07-19T18:56:03 IST" duration-ms="5261" status="PASS">
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:SalesOrder.CreateSalesOrderTest@65fb9ffc]" started-at="2023-07-21T12:10:09 IST" name="BCLaunchBrowser" finished-at="2023-07-21T12:10:12 IST" duration-ms="3094" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Invoices.CreateInvoiceTest@71d44a3]" started-at="2023-07-19T18:56:03 IST" name="BMLoginTOApplication" finished-at="2023-07-19T18:56:08 IST" duration-ms="4603" status="PASS">
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:SalesOrder.CreateSalesOrderTest@65fb9ffc]" started-at="2023-07-21T12:10:12 IST" name="BMLoginTOApplication" finished-at="2023-07-21T12:10:14 IST" duration-ms="1969" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createInvoiceTest()[pri:0, instance:Invoices.CreateInvoiceTest@71d44a3]" started-at="2023-07-19T18:56:08 IST" name="createInvoiceTest" finished-at="2023-07-19T18:56:27 IST" duration-ms="19119" status="FAIL">
+        <test-method signature="createSalesOrderTest()[pri:0, instance:SalesOrder.CreateSalesOrderTest@65fb9ffc]" started-at="2023-07-21T12:10:14 IST" name="createSalesOrderTest" finished-at="2023-07-21T12:10:23 IST" duration-ms="9183" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
               <![CDATA[no such window: target window already closed
@@ -28,9 +28,9 @@ from unknown error: web view not found
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d0dc4b3d9ee8b5ec3c877a44a1129e3b, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58689/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0dc4b3d9ee8b5ec3c877a44a1129e3b]]>
+Command: [dacfc19165e9c9b4ed78f9bd7a0d2050, acceptAlert {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60345/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dacfc19165e9c9b4ed78f9bd7a0d2050]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -39,9 +39,9 @@ from unknown error: web view not found
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d0dc4b3d9ee8b5ec3c877a44a1129e3b, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58689/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0dc4b3d9ee8b5ec3c877a44a1129e3b
+Command: [dacfc19165e9c9b4ed78f9bd7a0d2050, acceptAlert {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60345/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dacfc19165e9c9b4ed78f9bd7a0d2050
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -56,10 +56,10 @@ at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverComman
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1079)
-at com.generic.utilities.WebDriverUtility.acceptAlert(WebDriverUtility.java:229)
-at object.repository.invoice.CreateInvoicePage.createNewInvoice(CreateInvoicePage.java:61)
-at Invoices.CreateInvoiceTest.createInvoiceTest(CreateInvoiceTest.java:32)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.accept(RemoteWebDriver.java:1096)
+at com.generic.utilities.WebDriverUtility.acceptAlert(WebDriverUtility.java:234)
+at object.repository.salesorder.CreateNewSalesOrderPage.createNewSalesOrder(CreateNewSalesOrderPage.java:72)
+at SalesOrder.CreateSalesOrderTest.createSalesOrderTest(CreateSalesOrderTest.java:32)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -93,26 +93,26 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createInvoiceTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Invoices.CreateInvoiceTest@71d44a3]" started-at="2023-07-19T18:56:27 IST" name="AMLogoutTOApplication" finished-at="2023-07-19T18:56:27 IST" duration-ms="32" status="FAIL">
+        </test-method> <!-- createSalesOrderTest -->
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:SalesOrder.CreateSalesOrderTest@65fb9ffc]" started-at="2023-07-21T12:10:23 IST" name="AMLogoutTOApplication" finished-at="2023-07-21T12:10:23 IST" duration-ms="24" status="FAIL">
           <exception class="org.openqa.selenium.json.JsonException">
             <message>
               <![CDATA[java.lang.reflect.InvocationTargetException
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d0dc4b3d9ee8b5ec3c877a44a1129e3b, actions {actions=[org.openqa.selenium.interactions.Sequence@75fc1992]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58689/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0dc4b3d9ee8b5ec3c877a44a1129e3b]]>
+Command: [dacfc19165e9c9b4ed78f9bd7a0d2050, actions {actions=[org.openqa.selenium.interactions.Sequence@81b5db0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60345/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dacfc19165e9c9b4ed78f9bd7a0d2050]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d0dc4b3d9ee8b5ec3c877a44a1129e3b, actions {actions=[org.openqa.selenium.interactions.Sequence@75fc1992]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58689/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0dc4b3d9ee8b5ec3c877a44a1129e3b
+Command: [dacfc19165e9c9b4ed78f9bd7a0d2050, actions {actions=[org.openqa.selenium.interactions.Sequence@81b5db0]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60345/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dacfc19165e9c9b4ed78f9bd7a0d2050
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
 at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
@@ -145,7 +145,7 @@ at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:611)
 at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:567)
 at org.openqa.selenium.interactions.Actions.perform(Actions.java:536)
 at com.generic.utilities.WebDriverUtility.mouseHoverAction(WebDriverUtility.java:112)
-at object.repository.HomePage.logoutToApplication(HomePage.java:97)
+at object.repository.HomePage.logoutToApplication(HomePage.java:116)
 at com.generic.utilities.BaseClass.AMLogoutTOApplication(BaseClass.java:72)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -200,9 +200,9 @@ from unknown error: web view not found
 Build info: version: '4.8.3', revision: 'e5e76298c3'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [d0dc4b3d9ee8b5ec3c877a44a1129e3b, findElement {using=xpath, value=//img[@src='themes/softed/images/user.PNG']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58689}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58689/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: d0dc4b3d9ee8b5ec3c877a44a1129e3b
+Command: [dacfc19165e9c9b4ed78f9bd7a0d2050, findElement {using=xpath, value=//img[@src='themes/softed/images/user.PNG']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\vivek\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:60345}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:60345/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: dacfc19165e9c9b4ed78f9bd7a0d2050
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -233,15 +233,15 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Invoices.CreateInvoiceTest@71d44a3]" started-at="2023-07-19T18:56:27 IST" name="ACCloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689773187418" status="SKIP">
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:SalesOrder.CreateSalesOrderTest@65fb9ffc]" started-at="2023-07-21T12:10:23 IST" name="ACCloseBrowser" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1689921623467" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ACCloseBrowser -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:Invoices.CreateInvoiceTest@71d44a3]" started-at="2023-07-19T18:56:27 IST" name="AS" finished-at="2023-07-19T18:56:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:SalesOrder.CreateSalesOrderTest@65fb9ffc]" started-at="2023-07-21T12:10:23 IST" name="AS" finished-at="2023-07-21T12:10:23 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- Invoices.CreateInvoiceTest -->
+      </class> <!-- SalesOrder.CreateSalesOrderTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
