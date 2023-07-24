@@ -48,6 +48,9 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText = "Sales Order")
 	private WebElement SalesOrderLinkText;
 
+	@FindBy(linkText = "Services")
+	private WebElement ServicesLinkText;
+
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -152,6 +155,11 @@ public class HomePage extends WebDriverUtility {
 	public void clickOnSalesOrderLinkText(WebDriver d) {
 		hoverOnMore(d);
 		SalesOrderLinkText.click();
+	}
+
+	public void clickOnServicesLinkText(WebDriver d) {
+		hoverOnMore(d);
+		ServicesLinkText.click();
 	}
 
 }
