@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-07-24T23:10:47 IST" name="Default suite" finished-at="2023-07-24T23:10:57 IST" duration-ms="10652">
+  <suite started-at="2023-07-25T19:31:18 IST" name="Default suite" finished-at="2023-07-25T19:31:31 IST" duration-ms="12269">
     <groups>
     </groups>
-    <test started-at="2023-07-24T23:10:47 IST" name="Default test" finished-at="2023-07-24T23:10:57 IST" duration-ms="10652">
+    <test started-at="2023-07-25T19:31:18 IST" name="Default test" finished-at="2023-07-25T19:31:31 IST" duration-ms="12269">
       <class name="Services.CreateNewService">
-        <test-method is-config="true" signature="BS()[pri:0, instance:Services.CreateNewService@65fb9ffc]" started-at="2023-07-24T23:10:47 IST" name="BS" finished-at="2023-07-24T23:10:47 IST" duration-ms="9" status="PASS">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Services.CreateNewService@71d44a3]" started-at="2023-07-25T19:31:18 IST" name="BS" finished-at="2023-07-25T19:31:18 IST" duration-ms="14" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Services.CreateNewService@65fb9ffc]" started-at="2023-07-24T23:10:47 IST" name="BCLaunchBrowser" finished-at="2023-07-24T23:10:50 IST" duration-ms="3684" status="PASS">
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Services.CreateNewService@71d44a3]" started-at="2023-07-25T19:31:18 IST" name="BCLaunchBrowser" finished-at="2023-07-25T19:31:22 IST" duration-ms="3596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Services.CreateNewService@65fb9ffc]" started-at="2023-07-24T23:10:50 IST" name="BMLoginTOApplication" finished-at="2023-07-24T23:10:53 IST" duration-ms="2310" status="PASS">
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Services.CreateNewService@71d44a3]" started-at="2023-07-25T19:31:22 IST" name="BMLoginTOApplication" finished-at="2023-07-25T19:31:24 IST" duration-ms="1887" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createNewServices()[pri:0, instance:Services.CreateNewService@65fb9ffc]" started-at="2023-07-24T23:10:53 IST" name="createNewServices" finished-at="2023-07-24T23:10:57 IST" duration-ms="4135" status="PASS">
+        <test-method signature="createNewServices()[pri:0, instance:Services.CreateNewService@71d44a3]" started-at="2023-07-25T19:31:24 IST" name="createNewServices" finished-at="2023-07-25T19:31:30 IST" duration-ms="6392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewServices -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Services.CreateNewService@65fb9ffc]" started-at="2023-07-24T23:10:57 IST" name="AMLogoutTOApplication" finished-at="2023-07-24T23:10:57 IST" duration-ms="151" status="PASS">
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Services.CreateNewService@71d44a3]" started-at="2023-07-25T19:31:30 IST" name="AMLogoutTOApplication" finished-at="2023-07-25T19:31:30 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Services.CreateNewService@65fb9ffc]" started-at="2023-07-24T23:10:57 IST" name="ACCloseBrowser" finished-at="2023-07-24T23:10:57 IST" duration-ms="329" status="PASS">
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Services.CreateNewService@71d44a3]" started-at="2023-07-25T19:31:30 IST" name="ACCloseBrowser" finished-at="2023-07-25T19:31:31 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ACCloseBrowser -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:Services.CreateNewService@65fb9ffc]" started-at="2023-07-24T23:10:57 IST" name="AS" finished-at="2023-07-24T23:10:57 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:Services.CreateNewService@71d44a3]" started-at="2023-07-25T19:31:31 IST" name="AS" finished-at="2023-07-25T19:31:31 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
