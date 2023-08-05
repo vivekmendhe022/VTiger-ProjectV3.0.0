@@ -9,14 +9,14 @@ import com.generic.utilities.WebDriverUtility;
 
 public class HomePage extends WebDriverUtility {
 
-	@FindBy(linkText = "Organizations")
-	private WebElement Organizations;
-
 	@FindBy(xpath = "//img[@src='themes/softed/images/user.PNG']")
 	private WebElement AdministratorLookUpImg;
 
 	@FindBy(linkText = "Sign Out")
 	private WebElement LogoutLink;
+
+	@FindBy(linkText = "Organizations")
+	private WebElement Organizations;
 
 	@FindBy(linkText = "Contacts")
 	private WebElement ContactLink;
@@ -50,6 +50,9 @@ public class HomePage extends WebDriverUtility {
 
 	@FindBy(linkText = "Services")
 	private WebElement ServicesLinkText;
+
+	@FindBy(linkText = "Assets")
+	private WebElement AssetLinkText;
 
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
@@ -160,6 +163,11 @@ public class HomePage extends WebDriverUtility {
 	public void clickOnServicesLinkText(WebDriver d) {
 		hoverOnMore(d);
 		ServicesLinkText.click();
+	}
+
+	public void clickOnAssetLinkText(WebDriver d) {
+		hoverOnMore(d);
+		AssetLinkText.click();
 	}
 
 }
