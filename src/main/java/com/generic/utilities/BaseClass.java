@@ -34,7 +34,7 @@ public class BaseClass {
 //	@Parameters("browser")
 //	@AfterTest
 	@BeforeClass(alwaysRun = true)
-	public void BCLaunchBrowser(/* String BROWSER */) {
+	public void BCLaunchBrowser(/*String BROWSER*/) {
 		String BROWSER = "chrome";
 		String URL = "http://localhost:8888";
 

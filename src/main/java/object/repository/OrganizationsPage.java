@@ -8,6 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 public class OrganizationsPage {
 	@FindBy(xpath = "//img[@src='themes/softed/images/btnL3Add.gif']")
 	private WebElement CreateOrgLookUpImg;
+	
+	@FindBy(linkText = "edit")
+	private WebElement EditOrgTextLink;
 
 	public OrganizationsPage(WebDriver d) {
 		PageFactory.initElements(d, this);
@@ -20,4 +23,8 @@ public class OrganizationsPage {
 	public void clickOnCreateOrgLookUpImg() {
 		CreateOrgLookUpImg.click();
 	}
+	public void clickOnEditLinkText() {
+		EditOrgTextLink.click();
+	}
+	
 }

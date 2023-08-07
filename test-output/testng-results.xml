@@ -1,65 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[Organisation link click successful]]>
-    </line>
-    <line>
-      <![CDATA[Create Organisation look up IMG link click successful]]>
-    </line>
-    <line>
-      <![CDATA[Organisation & Industry entered successful]]>
-    </line>
-    <line>
-      <![CDATA[Bipro680 create successfully...!]]>
-    </line>
   </reporter-output>
-  <suite started-at="2023-08-05T14:12:02 IST" name="Default suite" finished-at="2023-08-05T14:12:30 IST" duration-ms="27290">
+  <suite started-at="2023-08-07T23:31:41 IST" name="Default suite" finished-at="2023-08-07T23:32:15 IST" duration-ms="34383">
     <groups>
     </groups>
-    <test started-at="2023-08-05T14:12:02 IST" name="Default test" finished-at="2023-08-05T14:12:30 IST" duration-ms="27290">
-      <class name="Assets.CreateNewAssetTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:Assets.CreateNewAssetTest@6150c3ec]" started-at="2023-08-05T14:12:02 IST" name="BS" finished-at="2023-08-05T14:12:02 IST" duration-ms="10" status="PASS">
+    <test started-at="2023-08-07T23:31:41 IST" name="Default test" finished-at="2023-08-07T23:32:15 IST" duration-ms="34383">
+      <class name="Organisation.EditOrganizationTest">
+        <test-method is-config="true" signature="BS()[pri:0, instance:Organisation.EditOrganizationTest@6150c3ec]" started-at="2023-08-07T23:31:41 IST" name="BS" finished-at="2023-08-07T23:31:41 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Assets.CreateNewAssetTest@6150c3ec]" started-at="2023-08-05T14:12:03 IST" name="BCLaunchBrowser" finished-at="2023-08-05T14:12:06 IST" duration-ms="3555" status="PASS">
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:Organisation.EditOrganizationTest@6150c3ec]" started-at="2023-08-07T23:31:41 IST" name="BCLaunchBrowser" finished-at="2023-08-07T23:31:47 IST" duration-ms="5452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Assets.CreateNewAssetTest@6150c3ec]" started-at="2023-08-05T14:12:06 IST" name="BMLoginTOApplication" finished-at="2023-08-05T14:12:08 IST" duration-ms="1933" status="PASS">
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:Organisation.EditOrganizationTest@6150c3ec]" started-at="2023-08-07T23:31:47 IST" name="BMLoginTOApplication" finished-at="2023-08-07T23:31:54 IST" duration-ms="7157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="creatNewAssetTest()[pri:0, instance:Assets.CreateNewAssetTest@6150c3ec]" started-at="2023-08-05T14:12:08 IST" name="creatNewAssetTest" finished-at="2023-08-05T14:12:29 IST" duration-ms="20821" status="PASS">
+        <test-method signature="editOrganizationTest()[pri:0, instance:Organisation.EditOrganizationTest@6150c3ec]" started-at="2023-08-07T23:31:54 IST" name="editOrganizationTest" finished-at="2023-08-07T23:32:14 IST" duration-ms="20476" status="PASS">
           <reporter-output>
-            <line>
-              <![CDATA[Organisation link click successful]]>
-            </line>
-            <line>
-              <![CDATA[Create Organisation look up IMG link click successful]]>
-            </line>
-            <line>
-              <![CDATA[Organisation & Industry entered successful]]>
-            </line>
-            <line>
-              <![CDATA[Bipro680 create successfully...!]]>
-            </line>
           </reporter-output>
-        </test-method> <!-- creatNewAssetTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Assets.CreateNewAssetTest@6150c3ec]" started-at="2023-08-05T14:12:29 IST" name="AMLogoutTOApplication" finished-at="2023-08-05T14:12:29 IST" duration-ms="185" status="PASS">
+        </test-method> <!-- editOrganizationTest -->
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:Organisation.EditOrganizationTest@6150c3ec]" started-at="2023-08-07T23:32:14 IST" name="AMLogoutTOApplication" finished-at="2023-08-07T23:32:15 IST" duration-ms="190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Assets.CreateNewAssetTest@6150c3ec]" started-at="2023-08-05T14:12:29 IST" name="ACCloseBrowser" finished-at="2023-08-05T14:12:30 IST" duration-ms="434" status="PASS">
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:Organisation.EditOrganizationTest@6150c3ec]" started-at="2023-08-07T23:32:15 IST" name="ACCloseBrowser" finished-at="2023-08-07T23:32:15 IST" duration-ms="481" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ACCloseBrowser -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:Assets.CreateNewAssetTest@6150c3ec]" started-at="2023-08-05T14:12:30 IST" name="AS" finished-at="2023-08-05T14:12:30 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:Organisation.EditOrganizationTest@6150c3ec]" started-at="2023-08-07T23:32:16 IST" name="AS" finished-at="2023-08-07T23:32:16 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
-      </class> <!-- Assets.CreateNewAssetTest -->
+      </class> <!-- Organisation.EditOrganizationTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

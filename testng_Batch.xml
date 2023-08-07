@@ -20,6 +20,7 @@
 			<class name="Campaigns.CreateCampaignsTest" />
 			<class name="Documents.CreateDocumentUsingDescriptionTest" />
 			<class name="Documents.CreateDocumentUsingUploadFileTest" />
+			<class name="Organisation.EditOrganizationTest" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->
