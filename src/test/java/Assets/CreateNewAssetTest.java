@@ -25,7 +25,7 @@ import object.repository.product.ProductPage;
 @Listeners(com.generic.utilities.ListenersImplementation.class)
 public class CreateNewAssetTest extends BaseClass {
 
-	@Test
+	@Test(groups = "SmokeSuit")
 	public void creatNewAssetTest() throws EncryptedDocumentException, IOException {
 
 		int r = jutil.getRandom();

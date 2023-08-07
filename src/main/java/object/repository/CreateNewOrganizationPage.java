@@ -18,6 +18,9 @@ public class CreateNewOrganizationPage extends WebDriverUtility {
 	@FindBy(xpath = "//input[@title='Save [Alt+S]']")
 	private WebElement SaveBtn;
 
+	@FindBy(name = "description")
+	private WebElement DescriptionTextarea;
+
 	public CreateNewOrganizationPage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -42,6 +45,14 @@ public class CreateNewOrganizationPage extends WebDriverUtility {
 	public void createOrgWithIndustry(String ORGNAME, String INDUSTRY) {
 		ORGNameTextField.sendKeys(ORGNAME);
 		handleDropDown(INDUSTRY, IndustryDropDownList);
+		SaveBtn.click();
+	}
+
+	public void editOrganisation(String ORGNAME, String INDUSTRY, String DESCRIPTION) {
+		ORGNameTextField.clear();
+		ORGNameTextField.sendKeys(ORGNAME);
+		handleDropDown(INDUSTRY, IndustryDropDownList);
+		DescriptionTextarea.sendKeys(DESCRIPTION);
 		SaveBtn.click();
 	}
 
