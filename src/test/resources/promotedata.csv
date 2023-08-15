@@ -1,0 +1,11 @@
+id;campaign_name;type;status;start_date;end_date;expected_revenue;budgeted_cost;actual_cost;expected_response;description
+1;"Hp Laptop";conference;planing;"2023-04-28 06:40:13";"2023-04-28 06:40:13";500000;500000;500000;500000;yes
+2;"HP Laptop";advertisement;planing;"2023-04-28 06:41:15";"2023-04-28 06:41:15";500000;500000;500000;100;yes
+3;"HP Laptop";advertisement;planing;"2023-04-28 06:41:39";"2023-04-28 06:41:39";500000;500000;500000;100;yes
+4;Hp;tradeshow;active;"2023-04-28 06:42:13";"2023-04-28 06:42:13";500000;500000;500000;10000;yes
+5;jp;tradeshow;active;"2023-04-28 06:46:14";"2023-04-28 06:46:14";;;;;
+6;jp;tradeshow;active;"2023-04-28 06:46:34";"2023-04-28 06:46:34";45;45;45;45;yes
+7;jp;tradeshow;active;"2023-04-28 06:46:46";"2023-04-28 06:46:46";45;45;45;45;yes
+8;jo;tradeshow;active;"2023-04-28 06:49:04";"2023-04-28 06:49:04";545;456;123;123;o
+9;;;;"2023-04-28 10:17:23";"2023-04-28 10:17:23";;;;;
+10;"HP laptop";;;"2023-04-28 10:19:55";"2023-04-28 10:19:55";;;;;

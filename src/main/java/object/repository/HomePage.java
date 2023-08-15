@@ -54,6 +54,12 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText = "Assets")
 	private WebElement AssetLinkText;
 
+	@FindBy(linkText = "Purchase Order")
+	private WebElement PurchaseOrderLinkText;
+
+	@FindBy(linkText = "Price Books")
+	private WebElement PriceBooksLinkText;
+
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -134,6 +140,22 @@ public class HomePage extends WebDriverUtility {
 		mouseHoverAction(d, More);
 	}
 
+	public WebElement getServicesLinkText() {
+		return ServicesLinkText;
+	}
+
+	public WebElement getAssetLinkText() {
+		return AssetLinkText;
+	}
+
+	public WebElement getPurchaseOrderLinkText() {
+		return PurchaseOrderLinkText;
+	}
+
+	public WebElement getPriceBooksLinkText() {
+		return PriceBooksLinkText;
+	}
+
 	public void clickOnCampaingsLinkText() {
 		CampaingsLinkText.click();
 	}
@@ -168,6 +190,16 @@ public class HomePage extends WebDriverUtility {
 	public void clickOnAssetLinkText(WebDriver d) {
 		hoverOnMore(d);
 		AssetLinkText.click();
+	}
+
+	public void clickOnPurchaseOrderLinkText(WebDriver d) {
+		hoverOnMore(d);
+		PurchaseOrderLinkText.click();
+	}
+
+	public void clickOnPriceBooksLinkText(WebDriver d) {
+		hoverOnMore(d);
+		PriceBooksLinkText.click();
 	}
 
 }
