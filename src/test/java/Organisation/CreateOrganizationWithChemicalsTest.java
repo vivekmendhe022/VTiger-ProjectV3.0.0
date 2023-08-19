@@ -21,7 +21,7 @@ public class CreateOrganizationWithChemicalsTest extends BaseClass {
 	@Test(groups = { "SmokeSuit", "RegressionSuit" })
 	public void createOrganizationWithChemicalsTest() throws EncryptedDocumentException, IOException {
 
-		String expectedOrganisationPageTitle = putil.getPageTitleFromPropertyFile("expectedOrganisationTitile");
+		String expectedOrganisationPageTitle = "Administrator - Organizations - vtiger CRM 5 - Commercial Open Source CRM";
 
 		int r = jutil.getRandom();
 

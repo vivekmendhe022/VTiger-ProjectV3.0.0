@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PriceBook.CreateNewPriceBookTest">
+      <class name="Organisation.CreateOrganizationWithChemicalsTest">
         <methods>
           <include name="AMLogoutTOApplication"/>
           <include name="BMLoginTOApplication"/>
           <include name="BS"/>
           <include name="AS"/>
-          <include name="createNewPriceBookTest"/>
+          <include name="createOrganizationWithChemicalsTest"/>
           <include name="BCLaunchBrowser"/>
           <include name="ACCloseBrowser"/>
         </methods>
-      </class> <!-- PriceBook.CreateNewPriceBookTest -->
+      </class> <!-- Organisation.CreateOrganizationWithChemicalsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

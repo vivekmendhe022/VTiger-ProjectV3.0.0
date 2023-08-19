@@ -1,0 +1,20 @@
+package object.repository.vendor;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class VendorInfoPage {
+	
+	@FindBy(xpath = "//span[@class='lvtHeaderText']")
+	private WebElement VendorHederText;
+
+	public VendorInfoPage(WebDriver d) {
+		PageFactory.initElements(d, this);
+	}
+	
+	public String getVendorHeaderInfo() {
+		return VendorHederText.getText();
+	}
+}
