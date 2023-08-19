@@ -60,6 +60,9 @@ public class HomePage extends WebDriverUtility {
 	@FindBy(linkText = "Price Books")
 	private WebElement PriceBooksLinkText;
 
+	@FindBy(linkText = "Vendors")
+	private WebElement VendorsLinkText;
+
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
 	}
@@ -114,6 +117,10 @@ public class HomePage extends WebDriverUtility {
 
 	public WebElement getSalesOrderLinkText() {
 		return SalesOrderLinkText;
+	}
+
+	public WebElement getVendorsLinkText() {
+		return VendorsLinkText;
 	}
 
 	public void clickOnOrganizationLink() {
@@ -200,6 +207,11 @@ public class HomePage extends WebDriverUtility {
 	public void clickOnPriceBooksLinkText(WebDriver d) {
 		hoverOnMore(d);
 		PriceBooksLinkText.click();
+	}
+
+	public void clickOnVendorsLinkText(WebDriver d) {
+		hoverOnMore(d);
+		VendorsLinkText.click();
 	}
 
 }

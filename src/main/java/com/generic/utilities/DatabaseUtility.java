@@ -54,6 +54,7 @@ public class DatabaseUtility {
 			pstmt.setString(1, name);
 			pstmt.setInt(2, age);
 			pstmt.setString(3, grade);
+
 			pstmt.executeUpdate();
 
 			System.out.println("Data inserted successfully!");
@@ -136,7 +137,7 @@ public class DatabaseUtility {
 //        dbUtility.getData();
 //		  dbUtility.updateData(2, "Mona Singh", 20, "A");
 //        dbUtility.deleteData(2);
-		
+
 		dbUtility.createDirectorTable();
 	}
 }

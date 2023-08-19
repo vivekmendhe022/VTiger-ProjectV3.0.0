@@ -1,5 +1,7 @@
 package com.generic.utilities;
 
+import java.io.IOException;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -34,9 +36,12 @@ public class BaseClass {
 //	@Parameters("browser")
 //	@AfterTest
 	@BeforeClass(alwaysRun = true)
-	public void BCLaunchBrowser(/*String BROWSER*/) {
-		String BROWSER = "chrome";
-		String URL = "http://localhost:8888";
+	public void BCLaunchBrowser(/* String BROWSER */) throws IOException {
+//		String BROWSER = "chrome";
+//		String URL = "http://localhost:8888";
+
+		String BROWSER = putil.getCommonDataFromPropertyFile("browser");
+		String URL = putil.getCommonDataFromPropertyFile("url");
 
 		if (BROWSER.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();

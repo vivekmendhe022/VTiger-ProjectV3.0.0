@@ -7,9 +7,11 @@ Leads\CreateLeadsWithLeadSourceTest.class
 SalesOrder\CreateSalesOrderTest.class
 Services\CreateNewService.class
 Documents\CreateDoucumentTest.class
+PurchaseOrder\CreateNewPurchaseOrderTest.class
 Opportunities\AdvanceSearchOpprtunityTest.class
 Opportunities\CreateOpportunitiesTest.class
 Campaigns\CreateCampaignsTest.class
+PriceBook\CreateNewPriceBookTest.class
 TroubleTickets\CreateTroubleTicketsWithOrgTest.class
 Contacts\CreateContactTest.class
 SalesOrder\CreateSalesOrder.class
@@ -22,4 +24,5 @@ Organisation\EditOrganizationTest.class
 Documents\CreateDocumentUsingDownloadTypeTest.class
 TroubleTickets\CreateTroubleTicketsWithContact.class
 TroubleTickets\CreateTroubleTicketsWithAllCredentialsTest.class
+Vendors\CreateNewVendorsTest.class
 TroubleTickets\CreateTroubleTicketUsingGroupWithTeamSellingTest.class
