@@ -25,7 +25,7 @@ public class ListenersImplementation implements ITestListener {
 
 	public void onTestStart(ITestResult result) {
 		String methodName = result.getMethod().getMethodName();
-		System.out.println(methodName + " ***** IT execution started ***** ");
+		System.out.println(methodName + " ***** Test execution started ***** ");
 
 		test = reports.createTest(methodName);
 		test.log(Status.INFO, methodName + " : Execution Started");

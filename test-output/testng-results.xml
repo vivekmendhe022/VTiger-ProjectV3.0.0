@@ -2,36 +2,36 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-20T23:54:06 IST" name="Default suite" finished-at="2023-08-20T23:55:09 IST" duration-ms="62171">
+  <suite started-at="2023-08-24T12:53:16 IST" name="Default suite" finished-at="2023-08-24T12:54:18 IST" duration-ms="62318">
     <groups>
     </groups>
-    <test started-at="2023-08-20T23:54:06 IST" name="Default test" finished-at="2023-08-20T23:55:09 IST" duration-ms="62171">
+    <test started-at="2023-08-24T12:53:16 IST" name="Default test" finished-at="2023-08-24T12:54:18 IST" duration-ms="62318">
       <class name="ServiceContracts.CreateNewServiceContractsTest">
-        <test-method is-config="true" signature="BS()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-20T23:54:06 IST" name="BS" finished-at="2023-08-20T23:54:06 IST" duration-ms="19" status="PASS">
+        <test-method is-config="true" signature="BS()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-24T12:53:16 IST" name="BS" finished-at="2023-08-24T12:53:16 IST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BS -->
-        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-20T23:54:07 IST" name="BCLaunchBrowser" finished-at="2023-08-20T23:54:57 IST" duration-ms="50479" status="PASS">
+        <test-method is-config="true" signature="BCLaunchBrowser()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-24T12:53:16 IST" name="BCLaunchBrowser" finished-at="2023-08-24T12:54:07 IST" duration-ms="50782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BCLaunchBrowser -->
-        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-20T23:54:57 IST" name="BMLoginTOApplication" finished-at="2023-08-20T23:55:01 IST" duration-ms="4322" status="PASS">
+        <test-method is-config="true" signature="BMLoginTOApplication()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-24T12:54:07 IST" name="BMLoginTOApplication" finished-at="2023-08-24T12:54:09 IST" duration-ms="2077" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BMLoginTOApplication -->
-        <test-method signature="createNewServiceContractsTest()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-20T23:55:01 IST" name="createNewServiceContractsTest" finished-at="2023-08-20T23:55:07 IST" duration-ms="5612" status="PASS">
+        <test-method signature="createNewServiceContractsTest()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-24T12:54:09 IST" name="createNewServiceContractsTest" finished-at="2023-08-24T12:54:17 IST" duration-ms="7967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createNewServiceContractsTest -->
-        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-20T23:55:07 IST" name="AMLogoutTOApplication" finished-at="2023-08-20T23:55:07 IST" duration-ms="162" status="PASS">
+        <test-method is-config="true" signature="AMLogoutTOApplication()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-24T12:54:17 IST" name="AMLogoutTOApplication" finished-at="2023-08-24T12:54:17 IST" duration-ms="140" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AMLogoutTOApplication -->
-        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-20T23:55:07 IST" name="ACCloseBrowser" finished-at="2023-08-20T23:55:09 IST" duration-ms="1537" status="PASS">
+        <test-method is-config="true" signature="ACCloseBrowser()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-24T12:54:17 IST" name="ACCloseBrowser" finished-at="2023-08-24T12:54:18 IST" duration-ms="1300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ACCloseBrowser -->
-        <test-method is-config="true" signature="AS()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-20T23:55:09 IST" name="AS" finished-at="2023-08-20T23:55:09 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="AS()[pri:0, instance:ServiceContracts.CreateNewServiceContractsTest@6150c3ec]" started-at="2023-08-24T12:54:18 IST" name="AS" finished-at="2023-08-24T12:54:18 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AS -->
