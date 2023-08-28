@@ -7,6 +7,7 @@ com\generic\utilities\ExcelFileUtility.class
 com\generic\utilities\BaseClass.class
 com\generic\utilities\WebDriverUtility.class
 object\repository\opportunities\EditOpportunityPage.class
+object\repository\servceContract\ServiceContractPage.class
 object\repository\campaigns\CampaignsPage.class
 object\repository\CreateNewOrganizationPage.class
 object\repository\ContactPage.class
@@ -33,6 +34,7 @@ object\repository\trouble_tickets\CreateNewTicketPage.class
 object\repository\CreateNewContactPage.class
 object\repository\documents\DocumnetsInfoPage.class
 object\repository\LoginPage.class
+object\repository\servceContract\CreateNewSericeContractPage.class
 object\repository\opportunities\OpportunitiesPage.class
 object\repository\organization\EditOrganizationsPage.class
 object\repository\documents\CreateNewDocumentPage.class
@@ -54,6 +56,7 @@ object\repository\pricebook\PriceBookInfoPage.class
 object\repository\LeadsInfoPage.class
 object\repository\trouble_tickets\TroubleTicketInfoPage.class
 object\repository\opportunities\OpportunityInfoPage.class
+object\repository\servceContract\ServiceContractInfoPage.class
 com\generic\utilities\RetryAnalyserImplementationUtility.class
 com\generic\utilities\IConstantUtility.class
 object\repository\vendor\VendorInfoPage.class
