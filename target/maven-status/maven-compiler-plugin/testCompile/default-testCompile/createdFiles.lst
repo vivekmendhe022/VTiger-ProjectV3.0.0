@@ -1,5 +1,6 @@
 TroubleTickets\CreateTroubleTicketsTest.class
 Documents\CreateDocumentUsingUploadFileTest.class
+ServiceContracts\CreateNewServiceContractsTest.class
 Product\CreateProductTest.class
 Organisation\CreateOrganizationWithChemicalsTest.class
 Invoices\CreateInvoiceTest.class

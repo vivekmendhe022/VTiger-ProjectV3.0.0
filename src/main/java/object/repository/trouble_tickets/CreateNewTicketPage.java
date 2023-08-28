@@ -217,6 +217,7 @@ public class CreateNewTicketPage extends WebDriverUtility {
 		}
 		
 		waitForElementClickable(d, ProductNameLookUpIcon);
+		
 		ProductNameLookUpIcon.click();
 		switchToWindow(d, "Products");
 		SearchTextField.sendKeys(PRODUCT);
