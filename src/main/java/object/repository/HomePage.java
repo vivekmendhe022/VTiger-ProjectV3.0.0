@@ -62,12 +62,15 @@ public class HomePage extends WebDriverUtility {
 
 	@FindBy(linkText = "Vendors")
 	private WebElement VendorsLinkText;
-	
+
 	@FindBy(linkText = "Service Contracts")
 	private WebElement ServiceContractsLinkText;
-	
+
 	@FindBy(linkText = "Project Milestones")
 	private WebElement ProjectMilestonesLinkText;
+
+	@FindBy(linkText = "Project Tasks")
+	private WebElement ProjectTaskLinkText;
 
 	public HomePage(WebDriver d) {
 		PageFactory.initElements(d, this);
@@ -127,6 +130,18 @@ public class HomePage extends WebDriverUtility {
 
 	public WebElement getVendorsLinkText() {
 		return VendorsLinkText;
+	}
+
+	public WebElement getServiceContractsLinkText() {
+		return ServiceContractsLinkText;
+	}
+
+	public WebElement getProjectMilestonesLinkText() {
+		return ProjectMilestonesLinkText;
+	}
+
+	public WebElement getProjectTaskLinkText() {
+		return ProjectTaskLinkText;
 	}
 
 	public void clickOnOrganizationLink() {
@@ -219,15 +234,20 @@ public class HomePage extends WebDriverUtility {
 		hoverOnMore(d);
 		VendorsLinkText.click();
 	}
-	
+
 	public void clickOnServiceContractsLinkText(WebDriver d) {
 		hoverOnMore(d);
 		ServiceContractsLinkText.click();
 	}
-	
+
 	public void clickOnProjectMilestonesLinkText(WebDriver d) {
 		hoverOnMore(d);
 		ProjectMilestonesLinkText.click();
+	}
+
+	public void clickOnProjectTaskLinkText(WebDriver d) {
+		hoverOnMore(d);
+		ProjectTaskLinkText.click();
 	}
 
 }

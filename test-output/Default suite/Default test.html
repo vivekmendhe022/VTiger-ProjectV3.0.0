@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Aug 28 23:40:20 IST 2023</td>
+<td>Started on:</td><td>Thu Aug 31 14:34:08 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>51 seconds (51040 ms)</td>
+<tr><td>Total time:</td><td>53 seconds (53558 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,15 +75,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='ProjectMilestones.CreateNewProjectMilestones.createNewProjectMilestones()'><b>createNewProjectMilestones</b><br>Test class: ProjectMilestones.CreateNewProjectMilestones</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;search_txt&apos;]
+<td title='ProjectTask.CreateNewProjectTaskTest.createNewProjectTaskTest()'><b>createNewProjectTaskTest</b><br>Test class: ProjectTask.CreateNewProjectTaskTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;search_text&apos;]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788, findElement {using=xpath, value=//input[@id=&apos;search_txt&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230601151220, moz:debuggerAddress: 127.0.0.1:17909, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4776, moz:profile: C:\Users\vivek\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:17909/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
+Command: [d410ff67-a859-4e85-8941-ff6d211d375a, findElement {using=name, value=search_text}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230601151220, moz:debuggerAddress: 127.0.0.1:27221, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21256, moz:profile: C:\Users\vivek\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27221/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d410ff67-a859-4e85-8941-ff6d211d375a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -103,8 +103,8 @@ Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-	at object.repository.projectMilestones.CreateNewProjectMilestonePage.createNewProjectMilestone(CreateNewProjectMilestonePage.java:49)
-	at ProjectMilestones.CreateNewProjectMilestones.createNewProjectMilestones(CreateNewProjectMilestones.java:31)
+	at object.repository.projectTask.CreateNewProjectTaskPage.createNewProjectTask(CreateNewProjectTaskPage.java:72)
+	at ProjectTask.CreateNewProjectTaskTest.createNewProjectTaskTest(CreateNewProjectTaskTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -133,15 +133,15 @@ Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1237907176", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1237907176'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;search_txt&apos;]
+</pre></div><a href='#' onClick='toggleBox("stack-trace1011276990", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1011276990'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;search_text&apos;]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788, findElement {using=xpath, value=//input[@id=&apos;search_txt&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230601151220, moz:debuggerAddress: 127.0.0.1:17909, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4776, moz:profile: C:\Users\vivek\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:17909/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
+Command: [d410ff67-a859-4e85-8941-ff6d211d375a, findElement {using=name, value=search_text}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230601151220, moz:debuggerAddress: 127.0.0.1:27221, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21256, moz:profile: C:\Users\vivek\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27221/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d410ff67-a859-4e85-8941-ff6d211d375a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -161,8 +161,8 @@ Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-	at object.repository.projectMilestones.CreateNewProjectMilestonePage.createNewProjectMilestone(CreateNewProjectMilestonePage.java:49)
-	at ProjectMilestones.CreateNewProjectMilestones.createNewProjectMilestones(CreateNewProjectMilestones.java:31)
+	at object.repository.projectTask.CreateNewProjectTaskPage.createNewProjectTask(CreateNewProjectTaskPage.java:72)
+	at ProjectTask.CreateNewProjectTaskTest.createNewProjectTaskTest(CreateNewProjectTaskTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -192,8 +192,8 @@ Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>33</td>
-<td>ProjectMilestones.CreateNewProjectMilestones@6150c3ec</td></tr>
+<td>31</td>
+<td>ProjectTask.CreateNewProjectTaskTest@6150c3ec</td></tr>
 </table><p>
 </body>
 </html>
