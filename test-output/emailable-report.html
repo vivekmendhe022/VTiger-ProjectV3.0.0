@@ -9,18 +9,18 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">51,040</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">53,558</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ProjectMilestones.CreateNewProjectMilestones</td><td><a href="#m0">createNewProjectMilestones</a></td><td rowspan="1">1693246235556</td><td rowspan="1">33684</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">ProjectTask.CreateNewProjectTaskTest</td><td><a href="#m0">createNewProjectTaskTest</a></td><td rowspan="1">1693472668877</td><td rowspan="1">31029</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">ProjectMilestones.CreateNewProjectMilestones#createNewProjectMilestones</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@id=&apos;search_txt&apos;]
+<h2>Default test</h2><h3 id="m0">ProjectTask.CreateNewProjectTaskTest#createNewProjectTaskTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;search_text&apos;]
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.3&apos;, revision: &apos;e5e76298c3&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788, findElement {using=xpath, value=//input[@id=&apos;search_txt&apos;]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230601151220, moz:debuggerAddress: 127.0.0.1:17909, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 4776, moz:profile: C:\Users\vivek\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:17909/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
+Command: [d410ff67-a859-4e85-8941-ff6d211d375a, findElement {using=name, value=search_text}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 114.0, moz:accessibilityChecks: false, moz:buildID: 20230601151220, moz:debuggerAddress: 127.0.0.1:27221, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 21256, moz:profile: C:\Users\vivek\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:27221/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d410ff67-a859-4e85-8941-ff6d211d375a
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -40,8 +40,8 @@ Session ID: 7d7f86c0-e613-4d4c-9bb1-fd56b5dcc788
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
 	at jdk.proxy2/jdk.proxy2.$Proxy20.sendKeys(Unknown Source)
-	at object.repository.projectMilestones.CreateNewProjectMilestonePage.createNewProjectMilestone(CreateNewProjectMilestonePage.java:49)
-	at ProjectMilestones.CreateNewProjectMilestones.createNewProjectMilestones(CreateNewProjectMilestones.java:31)
+	at object.repository.projectTask.CreateNewProjectTaskPage.createNewProjectTask(CreateNewProjectTaskPage.java:72)
+	at ProjectTask.CreateNewProjectTaskTest.createNewProjectTaskTest(CreateNewProjectTaskTest.java:31)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
